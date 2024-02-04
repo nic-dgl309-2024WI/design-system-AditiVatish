@@ -1,5 +1,7 @@
-/* styles.css */
 
+ul, ol {
+    list-style-type: none;
+}
 /* Color Variables */
 :root {
     --clr-primary: black;
