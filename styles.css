@@ -1,40 +1,49 @@
-
-ul, ol {
-    list-style-type: none;
-}
-/* Color Variables */
+/* Color Variables - Grayscale */
 :root {
     --clr-primary: black;
     --clr-secondary: darkgrey;
     --clr-accent: darkgrey;
     --clr-light: #f5f5f5; /* Very light grey */
     --clr-white: white;
-    /* Add more color variables as needed */
-}
-
-/* CSS Reset */
-* {
+    /* Add more grayscale color variables as needed */
+  }
+  
+  /* CSS Reset */
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  /* CSS Reset */
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure,
-picture {
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  figure,
+  picture {
     margin: 0;
-}
-
-/* Remove padding from lists */
-ul,
-ol,
-li {
+  }
+  
+  /* Remove padding from lists */
+  ul,
+  ol,
+  li {
     padding: 0;
-}
+  }
+  
