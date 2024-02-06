@@ -22,8 +22,16 @@ nav a:hover {
   color: var(--accent-color); /* Change color on hover */
 }
 
+.show-icon {
+  display: none !important;
+}
 
 /* Hover state for links */
+.mobile-nav a:hover,
+.top-nav a:hover,
+.side-nav a:hover {
+  background-color: var(--clr-secondary);
+}
 
 
 /* Active state for links */
