@@ -70,7 +70,8 @@ nav a:hover {
 /* Media Query for Larger Screens */
 @media (min-width: 768px) {
   .mobile-navbar {
-    display: none; /* Hide on larger screens */
+    display: none; 
+    
   }
 
   .top-nav-pages {
@@ -114,7 +115,7 @@ nav a:hover {
 
 .top-nav a {
   text-decoration: none;
-  color: var(--clr-primary);
+  color: #000;
 }
 
 .side-nav {
@@ -126,5 +127,6 @@ nav a:hover {
 .side-nav a {
   text-decoration: none;
   color: var(--clr-primary);
+  color: #000;
   margin-bottom: 10px; /* Adjust the spacing between elements as needed */
 }
