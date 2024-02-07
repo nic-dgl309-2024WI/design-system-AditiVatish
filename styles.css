@@ -8,6 +8,31 @@
     /* Add more grayscale color variables as needed */
   }
   
+/* Utility classes for colors */
+
+.bg-primary, .bg-primary-info{
+  background-color: #FFA06F;
+  color: #132626;
+    }
+  
+  .text-primary, .text-primary-info{
+    background-color: #132626;
+  }
+  
+  .bg-secondary, .bg-secondary-info{
+    background-color:#016A70;
+  }
+  
+  .text-secondary, .text-secondary-info{
+    background-color:#ECF79C;
+    color: #000;
+  }
+  
+  .accent-colour, .accent-colour-info{
+    background-color:#76453B;
+  }
+
+
   /* CSS Reset */
   html {
     box-sizing: border-box;
