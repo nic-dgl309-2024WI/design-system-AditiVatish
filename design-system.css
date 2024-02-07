@@ -55,7 +55,8 @@ nav a:hover {
 /* Media Query for Larger Screens */
 @media (min-width: 768px) {
   .mobile-nav {
-    display: none; /* Hide on larger screens */
+    display: none; 
+    
   }
 
   .top-navbar,
@@ -64,6 +65,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
   }
 }
 
