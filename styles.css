@@ -87,28 +87,19 @@
   line-height: var(--line-height);
 }
 .typo-image{
-<<<<<<< HEAD
   justify-content: center;
   width: 572px;
   height: 350px;
   margin: 1px 150px;
-=======
-  width: 859px;
-  height: 437px;
-  margin: 11px 214px;
->>>>>>> 4893912a935d276e341e56e98e002376924d203e
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .characters {
   display: flex;
   justify-content: space-around;
 }
-<<<<<<< HEAD
 .typoheading{
   justify-content: center;
 }
-=======
->>>>>>> 4893912a935d276e341e56e98e002376924d203e
 
 .Lato_txt, .Playfair_txt {
   flex: 1;
@@ -118,12 +109,11 @@
   text-align: center;
   margin: 10px;
 }
-<<<<<<< HEAD
+
 .Lato_text, .Playfair_text {
   text-align: center;
 }
-=======
->>>>>>> 4893912a935d276e341e56e98e002376924d203e
+
 .Lato_txt {
   font-family: var(----heading-font);
 }
@@ -131,7 +121,7 @@
 .Playfair_txt {
   font-family: var(--body-font);
 }
-<<<<<<< HEAD
+
 /* Responsive Typography */
 @media only screen and (max-width: 768px) {
   nav.top-nav {
@@ -192,8 +182,6 @@
     display: block; /* Show side navbar when needed */
   }
 }
-=======
->>>>>>> 4893912a935d276e341e56e98e002376924d203e
   /* CSS Reset */
   html {
     box-sizing: border-box;
