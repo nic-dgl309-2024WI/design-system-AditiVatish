@@ -8,6 +8,11 @@
     /* Add more grayscale color variables as needed */
   }
   
+/* Font Families */
+  :root {
+    --heading-font: 'Playfair Display', serif;
+    --body-font: 'Lato', sans-serif;
+  }
 /* Utility classes for colors */
 
 .bg-primary, .bg-primary-info{
