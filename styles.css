@@ -49,8 +49,136 @@
   .accent-colour, .accent-colour-info{
     background-color:#76453B;
   }
+  
+/* Utility Classes for text*/
+.u-ff-playfair {
+  font-family: var(--heading-font);
+}
 
+.u-ff-lato {
+  font-family: var(--body-font);
+}
 
+.u-fs-h1 {
+  font-size: var(--font-size-h1);
+}
+
+.u-fs-h2 {
+  font-size: var(--font-size-h2);
+}
+
+.u-fs-body {
+  font-size: var(--font-size-body);
+}
+
+.u-fs-character {
+  font-size: var(--font-size-character);
+}
+
+.u-fw-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.u-fw-regular {
+  font-weight: var(--font-weight-regular);
+}
+
+.u-lh {
+  line-height: var(--line-height);
+}
+.typo-image{
+  justify-content: center;
+  width: 572px;
+  height: 350px;
+  margin: 1px 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.characters {
+  display: flex;
+  justify-content: space-around;
+}
+.typoheading{
+  justify-content: center;
+}
+
+.Lato_txt, .Playfair_txt {
+  flex: 1;
+  padding: 20px;
+  border: 5px solid #132626;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px;
+}
+.Lato_text, .Playfair_text {
+  text-align: center;
+}
+.Lato_txt {
+  font-family: var(----heading-font);
+}
+
+.Playfair_txt {
+  font-family: var(--body-font);
+}
+/* Responsive Typography */
+@media only screen and (max-width: 768px) {
+  nav.top-nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #ham-open {
+    display: inline; /* Show hamburger icon for mobile */
+  }
+
+  nav.side-nav {
+    display: block; /* Show side navbar for mobile */
+  }
+
+  .characters {
+    flex-direction: row; /* Display characters side by side on larger screens */
+  }
+
+  .typoheading {
+    text-align: center; /* Center heading on smaller screens */
+  }
+}
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  #ham-open {
+    display: inline; /* Show hamburger icon for mobile */
+  }
+
+  #close-icon {
+    display: none; /* Hide close icon initially */
+  }
+
+  #side-navbar {
+    display: none; /* Hide side navbar initially */
+  }
+
+  #main-nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav.top-nav-pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #ham-open.show-icon {
+    display: none; /* Hide hamburger icon when side navbar is open */
+  }
+
+  #close-icon.show-icon {
+    display: inline; /* Show close icon when side navbar is open */
+  }
+
+  #side-navbar.show-icon {
+    display: block; /* Show side navbar when needed */
+  }
+}
   /* CSS Reset */
   html {
     box-sizing: border-box;
@@ -82,7 +210,8 @@
   picture {
     margin: 0;
   }
-  
+
+
   /* Remove padding from lists */
   ul,
   ol,
