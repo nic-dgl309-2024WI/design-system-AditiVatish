@@ -13,6 +13,18 @@
     --heading-font: 'Playfair Display', serif;
     --body-font: 'Lato', sans-serif;
   }
+
+  /* Font Variables */
+:root {
+  --font-size-h1: 1.5rem;
+  --font-size-body: 1rem;
+  --font-size-h2: 1.2rem;
+  --font-size-character: 1.2rem;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --line-height: 1.5;
+}
+
 /* Utility classes for colors */
 
 .bg-primary, .bg-primary-info{
