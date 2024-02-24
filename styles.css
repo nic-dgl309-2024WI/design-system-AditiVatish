@@ -12,7 +12,6 @@
 
   /* Additional colors */
   --clr-white:#ffffff; 
-}
 
   
 /* Font Families */
@@ -102,13 +101,7 @@
 .u-lh {
   line-height: var(--line-height);
 }
-.typo-image{
-  justify-content: center;
-  width: 572px;
-  height: 350px;
-  margin: 1px 150px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+
 .characters {
   display: flex;
   justify-content: space-around;
