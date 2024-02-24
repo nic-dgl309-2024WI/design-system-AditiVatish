@@ -1,12 +1,18 @@
 /* Color Variables - Grayscale */
 :root {
-    --clr-primary: #FFA06F;
-    --clr-secondary: #016A70;
-    --clr-accent: #76453B;
-    --clr-light: #ECF79C; 
-    --clr-white: white;
-    /* Add more grayscale color variables as needed */
-  }
+  /* Primary Colors */
+  --clr-primary-text:#272343;  
+  --clr-primary-bg: #fffffe; 
+  --clr-primary-accent:#e3f6f5; 
+    
+  /* Secondary Colors */
+  --clr-secondary-text: #fffffe; 
+  --clr-secondary-bg: #004643; 
+  --clr-secondary-accent:#f9bc60; 
+
+  /* Additional colors */
+  --clr-white:#ffffff; 
+}
   
 /* Font Families */
   :root {
