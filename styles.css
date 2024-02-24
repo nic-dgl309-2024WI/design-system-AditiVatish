@@ -21,13 +21,17 @@
   }
 
   /* Font Variables */
+  /* Font Sizes */
 :root {
   --font-size-h1: 1.5rem;
+  --font-size-h1: 2.5 rem;
   --font-size-body: 1rem;
   --font-size-h2: 1.2rem;
+  --font-size-h2: 2rem;
   --font-size-character: 1.2rem;
   --font-weight-bold: 700;
   --font-weight-regular: 400;
+  --font-weight-buttons: 500;
   --line-height: 1.5;
 }
 
