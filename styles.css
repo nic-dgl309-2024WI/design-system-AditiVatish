@@ -13,15 +13,14 @@
   /* Additional colors */
   --clr-white:#ffffff; 
 }
+
   
 /* Font Families */
-  :root {
     --heading-font: 'Playfair Display', serif;
     --body-font: 'Lato', sans-serif;
-  }
+  
 
   /* Font Sizes */
-:root {
   --font-size-h1: 2.5 rem;
   --font-size-body: 1rem;
   --font-size-h2: 2rem;
