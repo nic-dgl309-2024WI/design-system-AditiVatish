@@ -29,6 +29,15 @@
   --font-weight-regular: 400;
   --font-weight-buttons: 500;
   --line-height: 1.5;
+
+  /* Letter spacing */
+ 
+  --letter-spacing-1: 1px;
+  --letter-spacing-2: 2px;  
+  --letter-spacing-3: 3px; 
+  --line-height-body: 1.5;
+  --line-height-heading: 1.2;
+  --line-height-list:1.4;
 }
 
 /* Utility classes for colors */
