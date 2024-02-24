@@ -43,26 +43,27 @@
 /* Utility classes for colors */
 
 .bg-primary, .bg-primary-info{
-  background-color: #FFA06F;
-  color: #132626;
+  color: var(--clr-primary-bg);
     }
   
   .text-primary, .text-primary-info{
-    background-color: #132626;
-    color: white;
+  color: var(--clr-primary-text); 
+  }
+  .primary-accent-colour, .primary-accent-colour-info{
+   color: var(--clr-primary-accent);
   }
   
+
   .bg-secondary, .bg-secondary-info{
-    background-color:#016A70;
+    color: var(--clr-secondary-bg);
   }
   
   .text-secondary, .text-secondary-info{
-    background-color:#ECF79C;
-    color: #000;
+    color: var(--clr-secondary-text);
   }
   
-  .accent-colour, .accent-colour-info{
-    background-color:#76453B;
+  .secondary-accent-colour, .secondary-accent-colour-info{
+    color: var(--clr-secondary-accent);
   }
   
 /* Utility Classes for text*/
