@@ -30,45 +30,76 @@
 
 /* Utility classes for colors */
 
-.bg-primary, .bg-primary-info{
-  color: var(--clr-primary-bg);
-    }
-  
-  .text-primary, .text-primary-info{
-  color: var(--clr-primary-text); 
-  }
-  .primary-accent-colour, .primary-accent-colour-info{
-   color: var(--clr-primary-accent);
-  }
-  
+/* Utility classes for colors */
+.bg-primary,
+.bg-primary-info {
+color: var(--clr-primary-bg);
+}
 
-  .bg-secondary, .bg-secondary-info{
-    color: var(--clr-secondary-bg);
-  }
-  
-  .text-secondary, .text-secondary-info{
-    color: var(--clr-secondary-text);
-  }
-  
-  .secondary-accent-colour, .secondary-accent-colour-info{
-    color: var(--clr-secondary-accent);
-  }
-  
+.text-primary,
+.text-primary-info {
+color: var(--clr-primary-text);
+}
+
+.bg-secondary,
+.bg-secondary-info {
+color: var(--clr-secondary-bg);
+}
+
+.text-secondary,
+.text-secondary-info {
+color: var(--clr-secondary-text);
+}
+
+.accent-colour,
+.accent-colour-info {
+color: var(--clr-accent);
+}
+/* Adding space between content*/
+.box{
+width: 80%;
+padding: 20px;
+margin-bottom: 10px;
+}
+.color-list--swatch{
+padding:20px 20px ;
+}
+/* Color Combination*/
+.colour-combo-primary-bg{
+background-color: var(--clr-primary-bg);
+color: var(--clr-primary-text);
+}
+.colour-combo-primary-text{
+background-color: var(--clr-primary-text);
+color: var(--clr-primary-bg);
+}
+.colour-combo-secondary-bg{
+background-color: var(--clr-secondary-bg);
+color: var(--clr-secondary-text);
+}
+.colour-combo-secondary-text{
+background-color: var(--clr-secondary-text);
+color: var(--clr-secondary-bg);
+}
+.colour-combo-accent{
+background-color: var(--clr-accent);
+color: var(--clr-primary-bg);
+}
 /* Utility Classes for text*/
 .u-ff-playfair {
-  font-family: var(--heading-font);
+font-family: var(--heading-font);
 }
 
 .u-ff-lato {
-  font-family: var(--body-font);
+font-family: var(--body-font);
 }
 
 .u-fs-h1 {
-  font-size: var(--font-size-h1);
+font-size: var(--font-size-h1);
 }
 
 .u-fs-h2 {
-  font-size: var(--font-size-h2);
+font-size: var(--font-size-h2);
 }
 
 .u-fs-body {
@@ -100,12 +131,12 @@ justify-content: center;
 }
 
 .Lato_txt, .Playfair_txt {
-  flex: 1;
-  padding: 20px;
-  border: 5px solid #132626;
-  border-radius: 8px;
-  text-align: center;
-  margin: 10px;
+flex: 1;
+padding: 20px;
+border: 5px solid var(--clr-primary-text);
+border-radius: 8px;
+text-align: center;
+margin: 10px;
 }
 
 .Lato_text, .Playfair_text {
