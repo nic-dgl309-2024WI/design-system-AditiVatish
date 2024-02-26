@@ -153,10 +153,10 @@ font-family: var(----heading-font);
 
 /* Responsive Typography */
 @media only screen and (max-width: 768px) {
-  nav.top-nav {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+nav.top-navbar {
+flex-direction: row;
+justify-content: space-between;
+}
 
 #ham-open {
 display: inline; /* Show hamburger icon for mobile */
