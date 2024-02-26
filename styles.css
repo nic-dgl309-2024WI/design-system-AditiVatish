@@ -1,19 +1,16 @@
 /* Color Variables - Grayscale */
 :root {
+   
   /* Primary Colors */
-  --clr-primary-text:#272343;  
-  --clr-primary-bg: #fffffe; 
-  --clr-primary-accent:#ffbd09; 
-    
-  /* Secondary Colors */
-  --clr-secondary-text: #fffffe; 
-  --clr-secondary-bg: #004643; 
-  --clr-secondary-accent:#f9bc60; 
+--clr-primary-text:#fffffe;  
+--clr-primary-bg:  #272343; 
+--clr-accent:#ffbd09; 
 
-  /* Additional colors */
-  --clr-white:#ffffff; 
+/* Secondary Colors */
+--clr-secondary-text: #fffffe; 
+--clr-secondary-bg: #004643; 
+}
 
-  
 /* Font Families */
     --heading-font: 'Playfair Display', serif;
     --body-font: 'Lato', sans-serif;
@@ -82,31 +79,31 @@
 }
 
 .u-fs-body {
-  font-size: var(--font-size-body);
+font-size: var(--font-size-body);
 }
 
 .u-fs-character {
-  font-size: var(--font-size-character);
+font-size: var(--font-size-character);
 }
 
 .u-fw-bold {
-  font-weight: var(--font-weight-bold);
+font-weight: var(--font-weight-bold);
 }
 
 .u-fw-regular {
-  font-weight: var(--font-weight-regular);
+font-weight: var(--font-weight-regular);
 }
 
 .u-lh {
-  line-height: var(--line-height);
+line-height: var(--line-height);
 }
 
 .characters {
-  display: flex;
-  justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 .typoheading{
-  justify-content: center;
+justify-content: center;
 }
 
 .Lato_txt, .Playfair_txt {
@@ -119,11 +116,11 @@
 }
 
 .Lato_text, .Playfair_text {
-  text-align: center;
+text-align: center;
 }
 
 .Lato_txt {
-  font-family: var(----heading-font);
+font-family: var(----heading-font);
 }
 
 .Playfair_txt {
@@ -137,96 +134,97 @@
     justify-content: space-between;
   }
 
-  #ham-open {
-    display: inline; /* Show hamburger icon for mobile */
-  }
+#ham-open {
+display: inline; /* Show hamburger icon for mobile */
+}
 
   nav.side-nav {
     display: block; /* Show side navbar for mobile */
   }
 
-  .characters {
-    flex-direction: row; /* Display characters side by side on larger screens */
-  }
+.characters {
+flex-direction: row; /* Display characters side by side on larger screens */
+}
 
-  .typoheading {
-    text-align: center; /* Center heading on smaller screens */
-  }
+.typoheading {
+text-align: center; /* Center heading on smaller screens */
+}
 }
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
-  #ham-open {
-    display: inline; /* Show hamburger icon for mobile */
-  }
-
-  #close-icon {
-    display: none; /* Hide close icon initially */
-  }
-
-  #side-navbar {
-    display: none; /* Hide side navbar initially */
-  }
-
-  #main-nav {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  nav.top-nav-pages {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #ham-open.show-icon {
-    display: none; /* Hide hamburger icon when side navbar is open */
-  }
-
-  #close-icon.show-icon {
-    display: inline; /* Show close icon when side navbar is open */
-  }
-
-  #side-navbar.show-icon {
-    display: block; /* Show side navbar when needed */
-  }
+#ham-open {
+display: inline; /* Show hamburger icon for mobile */
 }
-  /* CSS Reset */
-  html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-  }
-  /* CSS Reset */
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  figure,
-  picture {
-    margin: 0;
-  }
+
+#close-icon {
+display: none; /* Hide close icon initially */
+}
+
+#side-navbar {
+display: none; /* Hide side navbar initially */
+}
+
+#main-nav {
+flex-direction: row;
+justify-content: space-between;
+}
+
+nav.top-navbar-pages {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#ham-open.show-icon {
+display: none; /* Hide hamburger icon when side navbar is open */
+}
+
+#close-icon.show-icon {
+display: inline; /* Show close icon when side navbar is open */
+}
+
+#side-navbar.show-icon {
+display: block; /* Show side navbar when needed */
+}
+}
+/* CSS Reset */
+html {
+box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+margin: 0;
+padding: 0;
+}
+/* CSS Reset */
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: var(--clr-primary-bg);
+color: var(--clr-primary-text);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+margin: 0;
+}
 
 
-  /* Remove padding from lists */
-  ul,
-  ol,
-  li {
-    padding: 0;
-  }
-  
+/* Remove padding from lists */
+ul,
+ol,
+li {
+padding: 0;
+}
