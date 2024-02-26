@@ -148,9 +148,37 @@ font-family: var(----heading-font);
 }
 
 .Playfair_txt {
-  font-family: var(--body-font);
+font-family: var(--body-font);
+}
+/*==================Typography===============================*/
+table {
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse;
 }
 
+th, td {
+padding: 12px;
+text-align: left;
+border: 1px solid var(--clr-primary-text);
+}
+
+th {
+background-color: var(--clr-secondary-bg);
+font-family: var(----heading-font);
+}
+
+tr:nth-child(even) {
+background-color:var(--clr-accent);
+}
+
+tr:hover {
+background-color:var(--clr-accent);
+}
+
+td {
+font-family: var(--body-font);
+}
 /* Responsive Typography */
 @media only screen and (max-width: 768px) {
 nav.top-navbar {
