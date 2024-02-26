@@ -190,9 +190,9 @@ justify-content: space-between;
 display: inline; /* Show hamburger icon for mobile */
 }
 
-  nav.side-nav {
-    display: block; /* Show side navbar for mobile */
-  }
+nav.side-navbar {
+display: block; /* Show side navbar for mobile */
+}
 
 .characters {
 flex-direction: row; /* Display characters side by side on larger screens */
