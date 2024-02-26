@@ -30,9 +30,6 @@ nav a:hover {
   color: var(--clr-accent); /* Change color on hover */
 }
 
-.show-icon {
-  display: none !important;
-}
 
 /* Hover state for links */
 .mobile-nav a:hover,
@@ -95,7 +92,6 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-between;
   }
-}
 
 
 .top-navbar {
