@@ -28,7 +28,10 @@
   --line-height: 1.5;
 }
 
-/* Utility classes for colors */
+/* Change line-height to 1.5rem */
+body {
+  line-height: 1.5rem; 
+}
 
 /* Utility classes for colors */
 .bg-primary,
