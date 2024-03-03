@@ -1,31 +1,31 @@
 /* Color Variables - Grayscale */
 :root {
    
-  /* Primary Colors */
---clr-primary-text:#fffffe;  
---clr-primary-bg:  #272343; 
---clr-accent:#ffbd09; 
-
-/* Secondary Colors */
---clr-secondary-text: #fffffe; 
---clr-secondary-bg: #004643; 
-}
-
+      /* Primary Colors */
+  --clr-primary-text:#fffffe;  
+  --clr-primary-bg:  #272343; 
+  --clr-accent:#ffbd09; 
+    
+  /* Secondary Colors */
+  --clr-secondary-text: #fffffe; 
+  --clr-secondary-bg: #004643; 
+  }
+  
 /* Font Families */
-:root {
---heading-font: 'Playfair Display', serif;
---body-font: 'Lato', sans-serif;
-}
+  :root {
+    --heading-font: 'Playfair Display', serif;
+    --body-font: 'Lato', sans-serif;
+  }
 
-/* Font Variables */
+  /* Font Variables */
 :root {
---font-size-h1: 1.5rem;
---font-size-body: 1rem;
---font-size-h2: 1.2rem;
---font-size-character: 1.2rem;
---font-weight-bold: 700;
---font-weight-regular: 400;
---line-height: 1.5;
+  --font-size-h1: 1.5rem;
+  --font-size-body: 1rem;
+  --font-size-h2: 1.2rem;
+  --font-size-character: 1.2rem;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --line-height: 1.5;
 }
 
 /* Utility classes for colors */
@@ -33,53 +33,53 @@
 /* Utility classes for colors */
 .bg-primary,
 .bg-primary-info {
-color: var(--clr-primary-bg);
+  color: var(--clr-primary-bg);
 }
 
 .text-primary,
 .text-primary-info {
-color: var(--clr-primary-text);
+  color: var(--clr-primary-text);
 }
 
 .bg-secondary,
 .bg-secondary-info {
-color: var(--clr-secondary-bg);
+  color: var(--clr-secondary-bg);
 }
 
 .text-secondary,
 .text-secondary-info {
-color: var(--clr-secondary-text);
+  color: var(--clr-secondary-text);
 }
 
 .accent-colour,
 .accent-colour-info {
-color: var(--clr-accent);
+  color: var(--clr-accent);
 }
 /* Adding space between content*/
 .box{
-width: 80%;
-padding: 20px;
-margin-bottom: 10px;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 10px;
 }
 .color-list--swatch{
 padding:20px 20px ;
 }
 /* Color Combination*/
 .colour-combo-primary-bg{
-background-color: var(--clr-primary-bg);
-color: var(--clr-primary-text);
+  background-color: var(--clr-primary-bg);
+  color: var(--clr-primary-text);
 }
 .colour-combo-primary-text{
-background-color: var(--clr-primary-text);
-color: var(--clr-primary-bg);
+  background-color: var(--clr-primary-text);
+  color: var(--clr-primary-bg);
 }
 .colour-combo-secondary-bg{
-background-color: var(--clr-secondary-bg);
-color: var(--clr-secondary-text);
+  background-color: var(--clr-secondary-bg);
+  color: var(--clr-secondary-text);
 }
 .colour-combo-secondary-text{
-background-color: var(--clr-secondary-text);
-color: var(--clr-secondary-bg);
+  background-color: var(--clr-secondary-text);
+  color: var(--clr-secondary-bg);
 }
 .colour-combo-accent{
 background-color: var(--clr-accent);
@@ -87,197 +87,204 @@ color: var(--clr-primary-bg);
 }
 /* Utility Classes for text*/
 .u-ff-playfair {
-font-family: var(--heading-font);
+  font-family: var(--heading-font);
 }
 
 .u-ff-lato {
-font-family: var(--body-font);
+  font-family: var(--body-font);
 }
 
 .u-fs-h1 {
-font-size: var(--font-size-h1);
+  font-size: var(--font-size-h1);
 }
 
 .u-fs-h2 {
-font-size: var(--font-size-h2);
+  font-size: var(--font-size-h2);
 }
 
 .u-fs-body {
-font-size: var(--font-size-body);
+  font-size: var(--font-size-body);
 }
 
 .u-fs-character {
-font-size: var(--font-size-character);
+  font-size: var(--font-size-character);
 }
 
 .u-fw-bold {
-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 .u-fw-regular {
-font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-regular);
 }
 
 .u-lh {
-line-height: var(--line-height);
+  line-height: var(--line-height);
 }
 
 .characters {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .typoheading{
-justify-content: center;
+  justify-content: center;
 }
 
 .Lato_txt, .Playfair_txt {
-flex: 1;
-padding: 20px;
-border: 5px solid var(--clr-primary-text);
-border-radius: 8px;
-text-align: center;
-margin: 10px;
+  flex: 1;
+  padding: 20px;
+  border: 5px solid var(--clr-primary-text);
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px;
 }
 
 .Lato_text, .Playfair_text {
-text-align: center;
+  text-align: center;
 }
 
 .Lato_txt {
-font-family: var(----heading-font);
+  font-family: var(--heading-font);
 }
 
 .Playfair_txt {
-font-family: var(--body-font);
+  font-family: var(--body-font);
 }
 /*==================Typography===============================*/
 table {
-width: 80%;
-margin: 20px auto;
-border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
 }
 
 th, td {
-padding: 12px;
-text-align: left;
-border: 1px solid var(--clr-primary-text);
+  padding: 12px;
+  text-align: left;
+  border: 1px solid var(--clr-primary-text);
 }
 
 th {
-background-color: var(--clr-secondary-bg);
-font-family: var(----heading-font);
+  background-color: var(--clr-secondary-bg);
+  font-family: var(--heading-font);
 }
 
 tr:nth-child(even) {
-background-color:var(--clr-accent);
+  background-color:var(--clr-accent);
 }
 
 tr:hover {
-background-color:var(--clr-accent);
+  background-color:var(--clr-accent);
 }
 
-td {
-font-family: var(--body-font);
+
+.u-ff-typography-h1-playfair{
+  font-size: var(--font-size-h1);
+  font-family: var(--heading-font);
+}
+.u-ff-typography-h2-playfair{
+  font-size: var(--font-size-h2);
+  font-family: var(--heading-font); 
 }
 /* Responsive Typography */
 
 @media only screen and (max-width: 768px) {
-nav.top-navbar {
-flex-direction: row;
-justify-content: space-between;
-}
+  nav.top-navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-#ham-open {
-display: inline; /* Show hamburger icon for mobile */
-}
+  #ham-open {
+    display: inline; /* Show hamburger icon for mobile */
+  }
 
-nav.side-navbar {
-display: block; /* Show side navbar for mobile */
-}
+  nav.side-navbar {
+    display: block; /* Show side navbar for mobile */
+  }
 
-.characters {
-flex-direction: row; /* Display characters side by side on larger screens */
-}
+  .characters {
+    flex-direction: row; /* Display characters side by side on larger screens */
+  }
 
-.typoheading {
-text-align: center; /* Center heading on smaller screens */
-}
+  .typoheading {
+    text-align: center; /* Center heading on smaller screens */
+  }
 }
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
-#ham-open {
-display: inline; /* Show hamburger icon for mobile */
-}
+  #ham-open {
+    display: inline; /* Show hamburger icon for mobile */
+  }
 
-#close-icon {
-display: none; /* Hide close icon initially */
-}
+  #close-icon {
+    display: none; /* Hide close icon initially */
+  }
 
-#side-navbar {
-display: none; /* Hide side navbar initially */
-}
+  #side-navbar {
+    display: none; /* Hide side navbar initially */
+  }
 
-#main-nav {
-flex-direction: row;
-justify-content: space-between;
-}
+  #main-nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-nav.top-navbar-pages {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+  nav.top-navbar-pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-#ham-open.show-icon {
-display: none; /* Hide hamburger icon when side navbar is open */
-}
+  #ham-open.show-icon {
+    display: none; /* Hide hamburger icon when side navbar is open */
+  }
 
-#close-icon.show-icon {
-display: inline; /* Show close icon when side navbar is open */
-}
+  #close-icon.show-icon {
+    display: inline; /* Show close icon when side navbar is open */
+  }
 
-#side-navbar.show-icon {
-display: block; /* Show side navbar when needed */
+  #side-navbar.show-icon {
+    display: block; /* Show side navbar when needed */
+  }
 }
-}
-/* CSS Reset */
-html {
-box-sizing: border-box;
-}
+  /* CSS Reset */
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  /* CSS Reset */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-primary-bg);
+    color: var(--clr-primary-text);
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  figure,
+  picture {
+    margin: 0;
+  }
 
-*,
-*::before,
-*::after {
-box-sizing: inherit;
-margin: 0;
-padding: 0;
-}
-/* CSS Reset */
-* {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-background-color: var(--clr-primary-bg);
-color: var(--clr-primary-text);
-}
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure,
-picture {
-margin: 0;
-}
-
-
-/* Remove padding from lists */
-ul,
-ol,
-li {
-padding: 0;
-}
+  /* Remove padding from lists */
+  ul,
+  ol,
+  li {
+    padding: 0;
+  }
+  
