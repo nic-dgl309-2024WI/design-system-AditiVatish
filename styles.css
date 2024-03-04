@@ -186,6 +186,56 @@ color: var(--clr-primary-bg);
   margin-bottom: 1rem; 
 }
 
+/* ==========================================Padding Classes======================================= */
+.l-p {
+  padding: 1rem; 
+}
+/* Add top padding */
+.l-pt-1 {
+  padding-top: 1rem; 
+}
+/* Add top padding */
+.l-pb-1 {
+  padding-bottom: 1rem; 
+}
+
+/* Add right padding */
+.l-pr-1 {
+  padding-right: 1rem; 
+}
+/* Add left padding */
+.l-pl-1 {
+  padding-left: 1rem; 
+}
+/* Add padding on both sides */
+.l-px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem; 
+}
+/* Add padding on both top and bottom */
+.l-py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem; 
+}
+
+/* ==========================Container Classes==================================== */
+/* l-container-desktop: Constrained container for desktop with max-width */
+.l-container-desktop {
+  max-width: 1200px; /* Adjust the max-width value as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+/* l-container-mobile: Full-width container for mobile devices */
+.l-container-mobile {
+  width: 100%;
+  padding: 0 20px; /* Adjust padding as needed for mobile */
+}
+
+/* l-container-full: Full-width container for both mobile and desktop */
+.l-container-full {
+  width: 100%;
+}
+
 /*==================Typography===============================*/
 table {
   width: 80%;
