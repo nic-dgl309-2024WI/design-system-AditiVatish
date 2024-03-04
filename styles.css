@@ -218,6 +218,70 @@ color: var(--clr-primary-bg);
   padding-bottom: 1rem; 
 }
 
+/*====================================== Flex Layout Classes=============================================*/
+
+/* l-flex: Applies display: flex; to the element */
+.l-flex {
+  display: flex;
+}
+
+/* l-flex-row: Sets flex-direction: row; for a horizontal layout */
+.l-flex-row {
+  flex-direction: row;
+}
+
+/* l-flex-column: Sets flex-direction: column; for a vertical layout */
+.l-flex-column {
+  flex-direction: column;
+}
+
+/* l-flex-center: Aligns items at the center both horizontally and vertically */
+.l-flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* l-flex-space-between: Distributes items evenly with space between them */
+.l-flex-space-between {
+  justify-content: space-between;
+}
+
+/* l-flex-space-around: Distributes items evenly with space around them */
+.l-flex-space-around {
+  justify-content: space-around;
+}
+
+/* l-flex-grow: Allows the element to grow within the flex container */
+.l-flex-grow {
+  flex-grow: 1;
+}
+
+/* ===================Grid Layout Classes============================ */
+/* l-grid: Applies display: grid; to the element */
+.l-grid {
+  display: grid;
+}
+
+/* l-grid-cols-2: Creates a grid with two equal columns */
+.l-grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* l-grid-cols-3: Creates a grid with three equal columns */
+.l-grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* l-grid-cols-4: Creates a grid with four equal columns */
+.l-grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* l-grid-gap: Added a gap between grid items */
+.l-grid-gap {
+  gap: 1rem; 
+}
+
 /* ==========================Container Classes==================================== */
 /* l-container-desktop: Constrained container for desktop with max-width */
 .l-container-desktop {
