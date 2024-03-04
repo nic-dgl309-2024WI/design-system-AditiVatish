@@ -2,8 +2,12 @@ ul,
 ol {
   list-style-type: none;
 }
+/* Header styles */
 header {
   background-color: var(--clr-light);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 
