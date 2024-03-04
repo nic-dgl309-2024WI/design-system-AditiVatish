@@ -300,6 +300,27 @@ color: var(--clr-primary-bg);
   width: 100%;
 }
 
+/*================================= Content Styles ===============================================*/
+.max-width-wrapper {
+  max-width: 30ch;
+  padding: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Prevent Scroll “Bounce” with CSS */
+:root {
+  overscroll-behavior: none;
+}
+
+/* Media Query for Desktop */
+@media only screen and (min-width: 768px) {
+  .l-container-mobile {
+    max-width: 768px; /* Adjust the max-width for tablet devices if needed */
+  }
+
+}
+
 /*==================Typography===============================*/
 table {
   width: 80%;
