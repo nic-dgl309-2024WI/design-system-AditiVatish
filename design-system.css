@@ -5,6 +5,17 @@ ol {
 header {
   background-color: var(--clr-light);
 }
+
+
+
+/* Styles to the overall body */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
  main{
   background-color: var(--clr-light);
 }
