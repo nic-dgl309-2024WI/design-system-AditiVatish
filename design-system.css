@@ -2,13 +2,6 @@ ul,
 ol {
   list-style-type: none;
 }
-/* Header styles */
-header {
-  background-color: var(--clr-light);
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
 
 /* Styles to the overall body */
 body {
@@ -32,17 +25,22 @@ body {
   width: 100%;
   z-index: 1000;
 }
-
+.top-navbar h1 {
+  margin-right: auto; /* Push h1 to the left */
+}
+#nv-link {
+  margin-right: 20px;
+}
 /* Side Navbar styles */
 .side-navbar {
-  display: flex;
+  display: none;
   flex-direction: column;
   padding: 10px;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 250px; /* Adjust the width as needed */
+  width: 250px; 
   z-index: 1000;
 }
 
@@ -53,14 +51,11 @@ body {
 
 /* Content styles */
 main {
-  margin-top: 60px; /* Adjust the margin to avoid content being hidden under the top navbar */
-  margin-left: 250px; /* Adjust the margin to avoid content being hidden under the side navbar */
+  margin-top: 60px; 
+  margin-left: 250px; 
   overflow: auto;
 }
 
-nav{
-  background-color: var(--clr-light);
-}
 /*===================Toggle==========================*/
 /* toggel side*/
 .toggle {
@@ -82,13 +77,6 @@ nav{
   display: none;
 }
 
-/* Mobile Navbar Styles */
-.mobile-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 5px;
-}
 nav a {
   text-decoration:solid;
   color: var(--clr-primary-text);
@@ -101,104 +89,58 @@ nav a:hover {
   color: var(--clr-accent); /* Change color on hover */
 }
 
-
-/* Hover state for links */
-.mobile-nav a:hover,
-.top-navbar a:hover,
-.side-navbar a:hover {
-  background-color: var(--clr-primary);
-}
-
-
-/* Active state for links */
-.mobile-nav a.active,
-.top-nav a.active,
-.side-nav a.active {
-  background-color: var(--clr-accent);
-  color: var(--clr-white);
-}
-
-
 /* Media Query for Larger Screens */
 @media (min-width: 768px) {
-  .mobile-nav {
-    display: none; 
-    
-  }
-
-  .top-navbar,
-  .top-navbar ul,
   .side-navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-  }
-}
-
-/* Media Query for Larger Screens */
-@media (min-width: 768px) {
-  .mobile-navbar {
-    display: none; 
     
   }
 
-  .top-nav-pages {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-
-  .nv-link{
-    display: flex !important;
+  .toggle {
+    display: none;
   }
 
-  
-
-  .top-navbar,
-  .top-navbar ul,
-  .side-navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  main {
+    margin-left: 250px;
   }
-
-
-.top-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+  #nv-link {
+    display: flex; /* Display nv-link in one line on larger screens */
+    margin-right: 20px;
+  }
 }
 
-.top-navbar {
-  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-
-
-.side-navbar {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-}
-
-.side-navbar a {
-  text-decoration: none;
-  margin-bottom: 10px; 
-}
-}
-/* Media Query for Larger Screens */
+/* Media Query for Smaller Screens */
 @media (max-width: 768px) {
   .side-navbar {
-    display: none; /* Hide side navbar initially on smaller screens */
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    z-index: 1000;
+    background-color: var(--clr-light);
   }
 
+  .toggle {
+    display: block;
+    float: right;
+  }
+
+  /* Hide the close icon initially */
+  .toggle .fa-times {
+    display: none;
+  }
+
+  /* Show the close icon when the toggle button is active */
+  .toggle.active .fa-times {
+    display: inline;
+  }
+
+  /* Hide the hamburger icon when the toggle button is active */
+  .toggle.active .fa-bars {
+    display: none;
+  }
   main {
     margin-left: 0; /* Adjust the margin for smaller screens */
   }

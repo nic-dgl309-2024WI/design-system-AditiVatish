@@ -287,6 +287,10 @@ color: var(--clr-primary-bg);
 .l-container-desktop {
   max-width: 1200px; /* Adjust the max-width value as needed */
   margin: 0 auto; /* Center the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
 }
 
 /* l-container-mobile: Full-width container for mobile devices */
@@ -298,6 +302,11 @@ color: var(--clr-primary-bg);
 /* l-container-full: Full-width container for both mobile and desktop */
 .l-container-full {
   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap : 20px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /*================================= Content Styles ===============================================*/
