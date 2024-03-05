@@ -26,6 +26,27 @@ body {
 nav{
   background-color: var(--clr-light);
 }
+/*===================Toggle==========================*/
+/* toggel side*/
+.toggle {
+  float: right;
+  display: block;
+}
+/* Hide the "X" symbol initially */
+.toggle .fa-times {
+  display: none;
+}
+
+/* Show the "X" symbol when the toggle button is active */
+.toggle.active .fa-times {
+  display: inline;
+}
+
+/* Hide the "bars" icon when the toggle button is active */
+.toggle.active .fa-bars {
+  display: none;
+}
+
 /* Mobile Navbar Styles */
 .mobile-nav {
   display: flex;
