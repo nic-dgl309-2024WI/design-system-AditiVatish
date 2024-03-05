@@ -23,6 +23,43 @@ body {
  main{
   background-color: var(--clr-light);
 }
+
+/* Top Navbar styles */
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Side Navbar styles */
+.side-navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px; /* Adjust the width as needed */
+  z-index: 1000;
+}
+
+.side-navbar a {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+/* Content styles */
+main {
+  margin-top: 60px; /* Adjust the margin to avoid content being hidden under the top navbar */
+  margin-left: 250px; /* Adjust the margin to avoid content being hidden under the side navbar */
+  overflow: auto;
+}
+
 nav{
   background-color: var(--clr-light);
 }
