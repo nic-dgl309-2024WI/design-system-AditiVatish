@@ -158,3 +158,13 @@ nav a:hover {
   margin-bottom: 10px; 
 }
 }
+/* Media Query for Larger Screens */
+@media (max-width: 768px) {
+  .side-navbar {
+    display: none; /* Hide side navbar initially on smaller screens */
+  }
+
+  main {
+    margin-left: 0; /* Adjust the margin for smaller screens */
+  }
+}
