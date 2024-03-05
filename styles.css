@@ -411,7 +411,7 @@ tr:hover {
     padding: 1;
   }
 
-  #ham-open.show-icon {
+  #ham-close.show-icon {
     display: none; /* Hide hamburger icon when side navbar is open */
   }
 
