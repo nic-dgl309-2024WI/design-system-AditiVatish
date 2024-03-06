@@ -15,24 +15,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <!-- Top Navbar -->
-      <nav class="top-nav">
-        <div id="top-nav-pages" class="top-nav-pages">
+</head>
+
+<body>
+  <header>
+    <!-- Top Navbar -->
+    <nav class="top-nav">
+      <div id="top-nav-pages" class="top-nav-pages l-container-position l-z-index-2">
         <h1>Design System</h1>
-          <ul id="nv-link" class="show-icon">
-            <li><a href="about-me.html">About Me</a></li>
-           <li> <a href="index.html">Demo Site</a></li>
-          </ul>
-        </div>
-        <i id="ham-open" onclick="toggleNavbar()" class="fa fa-bars "></i>
-        <i id="close-icon" onclick="toggleNavbar()" class="fa fa-close show-icon"></i>
-      </nav>
-    </header>
-    <!-- Side Navbar -->
-    <nav id="side-navbar" class="side-nav show-icon">
+        <ul id="nv-link" class="show-icon">
+          <li><a href="about-me.html">About Me</a></li>
+          <li> <a href="index.html">Demo Site</a></li>
+        </ul>
+     
+      <i id="ham-open" onclick="toggleNavbar()" class="fa fa-bars "></i>
+      <i id="close-icon" onclick="toggleNavbar()" class="fa fa-close show-icon"></i>
+    </div>
+    </nav>
+  </header>
+  <!-- Side Navbar -->
+  <div class="l-flex l-flex-row">
+    <nav id="side-navbar" class="side-nav show-icon l-container-position  l-header-pt-2">
       <ul>
         <h3><a href="#">Branding</a></h3>
         <li><a href="color.html">01 Colours </a></li>
@@ -41,8 +44,8 @@
       </ul>
       <ul>
         <h3><a href="#">Utilities</a></h3>
-        <li><a href="#">04 Spacing</a></li>
-        <li><a href="#">05 Containers</a></li>
+        <li><a href="spacing.html">04 Spacing</a></li>
+        <li><a href="containers.html">05 Containers</a></li>
         <li><a href="#">06 Images</a></li>
         <li><a href="#">07 Interactive</a></li>
         <li><a href="#">08 Feedback</a></li>
@@ -69,84 +72,89 @@
       </ul>
     </nav>
     <main>
-      <div class="content">
-      <div class="content typography">
-        <div class="typo_heading">
-          <h1 class="u-ff-playfair u-fs-h1 u-fw-bold u-lh">Typography Styles</h1></div>
-          <!----Typography Formate Showcase-->
-      <div class="typo-formate">
-        <table border="2">
-          <thead>
-              <tr>
-                  <th>Variant</th>
-                  <th>Size</th>
-                  <th>Line-height</th>
-                  <th>Letter-spacing</th>
-                  <th>Weight</th>
-                  <th>Typeface</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr class="u-ff-typography-h1-playfair">
-                  <td>Heading-h1</td>
-                  <td>1.5rem</td>
-                  <td>1.5</td>
-                  <td>0</td>
-                  <td></td>
-                  <td>Lato Font</td>
-              </tr>
-              <tr class="u-ff-typography-h2-playfair">
-                  <td>Heading-h2</td>
-                  <td>1.2rem</td>
-                  <td>1.5</td>
-                  <td>0</td>
-                  <td></td>
-                  <td>Lato Font</td>
-              </tr>
-              <tr class="u-ff-typography-body-boldlato">
-                  <td>Body-font-bold</td>
-                  <td>1rem</td>
-                  <td>1.5</td>
-                  <td>0</td>
-                  <td>700</td>
-                  <td>Playfair Font</td>
-              </tr>
-              <tr class="u-ff-typography-body-lato">
-                  <td>Body-font-regular</td>
-                  <td>1rem</td>
-                  <td>1.5</td>
-                  <td>0</td>
-                  <td>400</td>
-                  <td>Playfair Font</td>
-              </tr>
-          </tbody>
-      </table>
-      </div>
-          <!-- A-Z and 0-9 -->
-      <div class="characters">
-        <div class= "Playfair_txt">
-          <h1>Playfair Font</h1>
-          <h2>A-Z</h2>
-          <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-          <h2>a-z</h2>
-          <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-          <h2>0-9</h2>
-          <p>0 1 2 3 4 5 6 7 8 9</p>
-        </div>
+      <div class="content l-pt-1  l-header-pl-2">
+        <div class="content">
+          <div class="content typography">
+            <div class="typo_heading">
+              <h1 class="u-ff-playfair u-fs-h1 u-fw-bold u-lh">Typography Styles</h1>
+            </div>
+            <!----Typography Formate Showcase-->
+            <div class="typo-formate">
+              <table border="2">
+                <thead>
+                  <tr>
+                    <th>Variant</th>
+                    <th>Size</th>
+                    <th>Line-height</th>
+                    <th>Letter-spacing</th>
+                    <th>Weight</th>
+                    <th>Typeface</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="u-ff-typography-h1-playfair">
+                    <td>Heading-h1</td>
+                    <td>1.5rem</td>
+                    <td>1.5</td>
+                    <td>0</td>
+                    <td></td>
+                    <td>Lato Font</td>
+                  </tr>
+                  <tr class="u-ff-typography-h2-playfair">
+                    <td>Heading-h2</td>
+                    <td>1.2rem</td>
+                    <td>1.5</td>
+                    <td>0</td>
+                    <td></td>
+                    <td>Lato Font</td>
+                  </tr>
+                  <tr class="u-ff-typography-body-boldlato">
+                    <td>Body-font-bold</td>
+                    <td>1rem</td>
+                    <td>1.5</td>
+                    <td>0</td>
+                    <td>700</td>
+                    <td>Playfair Font</td>
+                  </tr>
+                  <tr class="u-ff-typography-body-lato">
+                    <td>Body-font-regular</td>
+                    <td>1rem</td>
+                    <td>1.5</td>
+                    <td>0</td>
+                    <td>400</td>
+                    <td>Playfair Font</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- A-Z and 0-9 -->
+            <div class="characters">
+              <div class="Playfair_txt">
+                <h1>Playfair Font</h1>
+                <h2>A-Z</h2>
+                <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                <h2>a-z</h2>
+                <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+                <h2>0-9</h2>
+                <p>0 1 2 3 4 5 6 7 8 9</p>
+              </div>
 
-        <div class="Lato_txt">
-         <h1>Lato Font</h1>
-         <h2>A-Z</h2>
-         <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-         <h2>a-z</h2>
-         <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-         <h2>0-9</h2>
-         <p >0 1 2 3 4 5 6 7 8 9</p>
+              <div class="Lato_txt">
+                <h1>Lato Font</h1>
+                <h2>A-Z</h2>
+                <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                <h2>a-z</h2>
+                <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+                <h2>0-9</h2>
+                <p>0 1 2 3 4 5 6 7 8 9</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
-      
-      </div>
-      </div>
-    </div>
-  </main>
-  </body>
+    </main>
+  </div>
+</body>
+
 </html>
