@@ -1,11 +1,9 @@
-function toggleNav() {
-  var content = document.getElementById("content");
-  var toggleButton = document.querySelector(".toggle");
-  if (content.style.display === "block") {
-    content.style.display = "none";
-    toggleButton.classList.remove("active");
-  } else {
-    content.style.display = "block";
-    toggleButton.classList.add("active");
-  }
+function toggleNavbar() {
+
+    document.getElementById('ham-open').classList.toggle("show-icon");
+    document.getElementById('close-icon').classList.toggle("show-icon");
+    document.getElementById('side-navbar').classList.toggle("show-icon"); 
+    document.getElementById('nv-link').classList.toggle("show-icon"); 
+
+
 }
