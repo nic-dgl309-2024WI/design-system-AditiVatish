@@ -288,6 +288,10 @@ color: var(--clr-primary-bg);
   gap: 1rem; 
 }
 
+.l-z-index-2 {
+ z-index: 2;
+}
+
 /* ==========================Container Classes==================================== */
 /* l-container-desktop: Constrained container for desktop with max-width */
 .l-container-desktop {
