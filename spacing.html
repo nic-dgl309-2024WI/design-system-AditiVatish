@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Demo Site</title>
-    <script src="design-system.js"></script>
-    <link rel="stylesheet" href="design-system.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Site</title>
+  <script src="design-system.js"></script>
+  <link rel="stylesheet" href="design-system.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <!-- Top Navbar -->
-      <nav class="top-nav">
-        <div id="top-nav-pages" class="top-nav-pages">
+</head>
+
+<body>
+  <header>
+    <!-- Top Navbar -->
+    <nav class="top-nav">
+      <div id="top-nav-pages" class="top-nav-pages l-container-position l-z-index-2">
         <h1>Design System</h1>
-          <ul id="nv-link" class="show-icon">
-            <li><a href="about-me.html">About Me</a></li>
-           <li> <a href="index.html">Demo Site</a></li>
-          </ul>
-        </div>
-        <i id="ham-open" onclick="toggleNavbar()" class="fa fa-bars "></i>
-        <i id="close-icon" onclick="toggleNavbar()" class="fa fa-close show-icon"></i>
-      </nav>
-    </header>
-    <!-- Side Navbar -->
-    <nav id="side-navbar" class="side-nav show-icon">
+        <ul id="nv-link" class="show-icon">
+          <li><a href="about-me.html">About Me</a></li>
+          <li> <a href="index.html">Demo Site</a></li>
+        </ul>
+      </div>
+      <i id="ham-open" onclick="toggleNavbar()" class="fa fa-bars "></i>
+      <i id="close-icon" onclick="toggleNavbar()" class="fa fa-close show-icon"></i>
+    </nav>
+  </header>
+  <!-- Side Navbar -->
+  <div class="l-flex l-flex-row">
+    <nav id="side-navbar" class="side-nav show-icon l-container-position  l-header-pt-2">
       <ul>
         <h3><a href="#">Branding</a></h3>
         <li><a href="color.html">01 Colours </a></li>
@@ -69,61 +69,62 @@
       </ul>
     </nav>
     <main>
-      <section>
-        <h1 class="u-ff-playfair u-fs-h1 u-fw-bold u-lh m-h1">Margin Classes</h1>
-        
-  
-        <table>
-          <thead>
-            <tr>
-              <th>Class</th>
-              <th>Description</th>
-              <th>Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>.l-m</td>
-              <td>Default margin of 16px</td>
-              <td class="l-m">Example Content</td>
-            </tr>
-            <tr>
-              <td>.l-mt-1</td>
-              <td>Top margin of 16px</td>
-              <td class="l-mt-1">Example Content</td>
-            </tr>
-            <tr>
-              <td>.l-mb-1</td>
-              <td>Bottom margin of 16px</td>
-              <td class="l-mb-1">Example Content</td>
-            </tr>
-            <tr>
-              <td>.l-mr-1</td>
-              <td>Right margin of 16px</td>
-              <td class="l-mr-1">Example Content</td>
-            </tr>
-            <tr>
-              <td>.l-ml-1</td>
-              <td>Left margin of 16px</td>
-              <td class="l-ml-1">Example Content</td>
-            </tr>
-            <tr>
-              <td>.l-mx-1</td>
-              <td>Both sides margin of 16px</td>
-              <td class="l-mx-1">Example Content</td>
-            </tr>
-            <tr>
-              <td>.l-my-1</td>
-              <td>Top and bottom margin of 16px</td>
-              <td class="l-my-1">Example Content</td>
-            </tr>
-          </tbody>
-        </table>
-  
-      </section>
+
+      <div class="content l-pt-1  l-header-pl-2">
+        <section>
+
+          <h1 class="u-ff-playfair u-fs-h1 u-fw-bold u-lh m-h1">Margin Classes</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Class</th>
+                <th>Description</th>
+                <th>Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>.l-m</td>
+                <td>Default margin of 16px</td>
+                <td class="l-m">Example Content</td>
+              </tr>
+              <tr>
+                <td>.l-mt-1</td>
+                <td>Top margin of 16px</td>
+                <td class="l-mt-1">Example Content</td>
+              </tr>
+              <tr>
+                <td>.l-mb-1</td>
+                <td>Bottom margin of 16px</td>
+                <td class="l-mb-1">Example Content</td>
+              </tr>
+              <tr>
+                <td>.l-mr-1</td>
+                <td>Right margin of 16px</td>
+                <td class="l-mr-1">Example Content</td>
+              </tr>
+              <tr>
+                <td>.l-ml-1</td>
+                <td>Left margin of 16px</td>
+                <td class="l-ml-1">Example Content</td>
+              </tr>
+              <tr>
+                <td>.l-mx-1</td>
+                <td>Both sides margin of 16px</td>
+                <td class="l-mx-1">Example Content</td>
+              </tr>
+              <tr>
+                <td>.l-my-1</td>
+                <td>Top and bottom margin of 16px</td>
+                <td class="l-my-1">Example Content</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </section>
         <section>
           <h2> Padding Showcase</h2>
-    
+
           <table class="full-width-table">
             <thead>
               <tr>
@@ -170,8 +171,10 @@
               </tr>
             </tbody>
           </table>
-    
+
         </section>
+      </div>
     </main>
-  </body>
+</body>
+
 </html>
