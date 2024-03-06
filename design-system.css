@@ -50,9 +50,7 @@ body {
 }
 
 /* Content styles */
-main {
-  margin-top: 60px; 
-  margin-left: 250px; 
+main { 
   overflow: auto;
 }
 
@@ -72,6 +70,10 @@ main {
   display: inline;
 }
 
+.show-icon {
+  display: none !important;
+}
+
 /* Hide the "bars" icon when the toggle button is active */
 .toggle.active .fa-bars {
   display: none;
@@ -89,6 +91,11 @@ nav a:hover {
   color: var(--clr-accent); /* Change color on hover */
 }
 
+nav.top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Media Query for Larger Screens */
 @media (min-width: 768px) {
   .side-navbar {
@@ -100,13 +107,26 @@ nav a:hover {
     display: none;
   }
 
-  main {
-    margin-left: 250px;
+
+
+
+  .show-icon {
+    display: inline-block !important;
   }
-  #nv-link {
-    display: flex; /* Display nv-link in one line on larger screens */
-    margin-right: 20px;
+
+  #ham-open, #close-icon {
+    display: none !important;
   }
+
+  div#top-nav-pages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#nv-link {
+  display: flex !important; /* Display nv-link in one line on larger screens */
+  margin-right: 20px;
+}
 }
 
 /* Media Query for Smaller Screens */
@@ -117,8 +137,8 @@ nav a:hover {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 250px;
-    z-index: 1000;
+    width: 550px;
+    height: 100vh;
     background-color: var(--clr-light);
   }
 
