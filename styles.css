@@ -409,17 +409,6 @@ tr:hover {
 }
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
-  #ham-open {
-    display: inline; /* Show hamburger icon for mobile */
-  }
-
-  #close-icon {
-    display: none; /* Hide close icon initially */
-  }
-
-  #side-navbar {
-    display: none; /* Hide side navbar initially */
-  }
 
   #main-nav {
     flex-direction: row;
@@ -431,18 +420,6 @@ tr:hover {
     flex-direction: column;
     align-items: center;
     padding: 1;
-  }
-
-  #ham-close.show-icon {
-    display: none; /* Hide hamburger icon when side navbar is open */
-  }
-
-  #close-icon.show-icon {
-    display: inline; /* Show close icon when side navbar is open */
-  }
-
-  #side-navbar.show-icon {
-    display: block; /* Show side navbar when needed */
   }
 }
   /* CSS Reset */
