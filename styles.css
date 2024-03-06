@@ -327,6 +327,9 @@ color: var(--clr-primary-bg);
   margin-right: auto;
 }
 
+.l-container-position{
+  position: fixed;
+}
 /* Prevent Scroll “Bounce” with CSS */
 :root {
   overscroll-behavior: none;
