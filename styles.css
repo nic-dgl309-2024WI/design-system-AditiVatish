@@ -154,6 +154,12 @@ color: var(--clr-primary-bg);
   font-family: var(--body-font);
 }
 
+/* Active Link Styles */
+.link--active{
+  color: var(--clr-accent);
+  font-weight: bold;
+}
+
 /* ===============================Margin Classes================================================== */
 /* Default marign 16px */
 .l-m {
