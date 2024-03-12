@@ -387,7 +387,7 @@ tr:hover {
 /* Responsive Typography */
 
 @media only screen and (max-width: 768px) {
-  nav.top-navbar {
+  nav.ds-top-navbar {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -396,7 +396,7 @@ tr:hover {
     display: inline; 
   }
 /* Show side navbar for mobile */
-  nav.side-navbar {
+  nav.ds-side-navbar {
     display: block; 
     display: flex;
     flex-direction: column;
@@ -421,7 +421,7 @@ tr:hover {
     justify-content: space-between;
   }
 
-  nav.top-navbar-pages {
+  nav.ds-top-navbar-pages {
     display: flex;
     flex-direction: column;
     align-items: center;
