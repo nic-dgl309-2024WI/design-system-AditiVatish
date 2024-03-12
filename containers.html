@@ -15,12 +15,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body class="ds-body">
   <header>
     <!-- Top Navbar -->
-    <nav class="top-nav">
-      <div id="top-nav-pages" class="top-nav-pages">
-        <h1>Design System</h1>
+    <nav class="ds-top-navbar">
+      <div id="top-nav-pages" class="top-nav-pages ">
+        <h1><a href="index.html">Design System</a></h1>
         <ul id="nv-link" class="show-icon">
           <li><a href="about-me.html">About Me</a></li>
           <li> <a href="index.html">Demo Site</a></li>
@@ -32,7 +32,7 @@
   </header>
   <!-- Side Navbar -->
   <div class="l-flex l-flex-row">
-    <nav id="side-navbar" class="side-nav show-icon l-container-position  l-header-pt-2">
+    <nav id="side-navbar" class="ds-side-navbar show-icon l-container-position  l-header-pt-2">
     <ul>
       <h3><a href="#">Branding</a></h3>
       <li><a href="color.html">01 Colours </a></li>
@@ -42,7 +42,7 @@
     <ul>
       <h3><a href="#">Utilities</a></h3>
       <li><a href="spacing.html">04 Spacing</a></li>
-      <li><a href="containers.html">05 Containers</a></li>
+      <li><a href="containers.html" class="link link--active">05 Containers</a></li>
       <li><a href="#">06 Images</a></li>
       <li><a href="#">07 Interactive</a></li>
       <li><a href="#">08 Feedback</a></li>
@@ -68,7 +68,7 @@
       <li><a href="#">19 Lists</a></li>
     </ul>
   </nav>
-  <main>
+  <main class="ds-main">
     <div class="content l-pt-1  l-header-pl-2">
       <div class="l-container-desktop">
         <h1>Constrained Container for Desktop</h1>
