@@ -4,19 +4,32 @@ ol {
 }
 
 /* Styles to the overall body */
-body {
+.ds-body {
   display: flex;
   flex-direction: column;
   height: 100vh;
   margin: 0;
 }
 
- main{
+/* Content styles */
+ .ds-main{
   background-color: var(--clr-light);
+  overflow: auto;
+  margin-top: 60px; 
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+/* Adjust max-width based on your design */
+.content{
+  max-width: 800px; 
+  width: 100%;
 }
 
 /* Top Navbar styles */
-.top-navbar {
+.ds-top-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,14 +38,14 @@ body {
   width: 100%;
   z-index: 1000;
 }
-.top-navbar h1 {
+.ds-top-navbar h1 {
   margin-right: auto; /* Push h1 to the left */
 }
 #nv-link {
   margin-right: 20px;
 }
 /* Side Navbar styles */
-.side-navbar {
+.ds-side-navbar {
   display: none;
   flex-direction: column;
   padding: 10px;
@@ -44,29 +57,26 @@ body {
   z-index: 1000;
 }
 
-.side-navbar a {
+.ds-side-navbar a {
   text-decoration: none;
   margin-bottom: 10px;
 }
 
-/* Content styles */
-main { 
-  overflow: auto;
-}
 
-/*===================Toggle==========================*/
+/*===================.ds-toggle==========================*/
 /* toggel side*/
-.toggle {
-  float: right;
+.ds-toggle {
+  float: right; 
   display: block;
+  margin-left: 10px;
 }
 /* Hide the "X" symbol initially */
-.toggle .fa-times {
+.ds-toggle  .fa-times {
   display: none;
 }
 
 /* Show the "X" symbol when the toggle button is active */
-.toggle.active .fa-times {
+.ds-toggle .active .fa-times {
   display: inline;
 }
 
@@ -75,7 +85,7 @@ main {
 }
 
 /* Hide the "bars" icon when the toggle button is active */
-.toggle.active .fa-bars {
+.ds-toggle .active .fa-bars {
   display: none;
 }
 
@@ -98,12 +108,12 @@ nav.top-nav {
 
 /* Media Query for Larger Screens */
 @media (min-width: 768px) {
-  .side-navbar {
+  .ds-side-navbar {
     display: flex;
     
   }
 
-  .toggle {
+  .ds-toggle  {
     display: none;
   }
 
@@ -131,7 +141,7 @@ nav.top-nav {
 
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
-  .side-navbar {
+  .ds-side-navbar {
     display: none;
     position: fixed;
     top: 0;
@@ -142,23 +152,23 @@ nav.top-nav {
     background-color: var(--clr-light);
   }
 
-  .toggle {
+  .ds-toggle {
     display: block;
     float: right;
   }
 
   /* Hide the close icon initially */
-  .toggle .fa-times {
+  .ds-toggle .fa-times {
     display: none;
   }
 
   /* Show the close icon when the toggle button is active */
-  .toggle.active .fa-times {
+  .ds-toggle.active .fa-times {
     display: inline;
   }
 
   /* Hide the hamburger icon when the toggle button is active */
-  .toggle.active .fa-bars {
+  .ds-toggle.active .fa-bars {
     display: none;
   }
   main {
