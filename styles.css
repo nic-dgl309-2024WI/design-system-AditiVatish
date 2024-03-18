@@ -308,6 +308,9 @@ color: var(--clr-primary-bg);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -418,6 +421,12 @@ tr:hover {
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
 
+  .l-container-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   #main-nav {
     flex-direction: row;
     justify-content: space-between;
