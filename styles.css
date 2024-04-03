@@ -254,6 +254,28 @@ nav ul li a {
   font-weight: 600;
   text-decoration: none;
 }
+.show-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.toggle {
+  color:var(--clr-primary-text);}
+
+   .text-container {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .mobile-wrapper-width {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto ;
+    padding: 37px;
+    background: url('images/hero_img.jpg') center/cover no-repeat; 
+    color:var(--clr-primary-text);
+  }
+   
 
 /*====================================== Flex Layout Classes=============================================*/
 
