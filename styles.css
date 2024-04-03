@@ -228,8 +228,31 @@ color: var(--clr-primary-bg);
 }
 /* Add padding on both top and bottom */
 .l-py-1 {
-  padding-top: 1rem;
-  padding-bottom: 1rem; 
+padding-top: 1rem;
+padding-bottom: 1rem; 
+}
+
+/*---------------navbar------------------*/
+nav {
+  float: right;
+  margin: 0;
+  text-align: right;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+nav ul li {
+  padding: 8px 0;
+}
+
+nav ul li a {
+  color: var(--clr-primary-text);
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /*====================================== Flex Layout Classes=============================================*/
