@@ -1,6 +1,6 @@
 /* Color Variables - Grayscale */
 :root {
-   
+
   /* Primary Colors */
   --clr-primary-text: #fffffe;
   --clr-primary-bg: #272343;
@@ -13,19 +13,19 @@
 
 /* Font Families */
 :root {
---heading-font: 'Playfair Display', serif;
---body-font: 'Lato', sans-serif;
+  --heading-font: 'Playfair Display', serif;
+  --body-font: 'Lato', sans-serif;
 }
 
 /* Font Variables */
 :root {
---font-size-h1: 1.5rem;
---font-size-body: 1rem;
---font-size-h2: 1.2rem;
---font-size-character: 1.2rem;
---font-weight-bold: 700;
---font-weight-regular: 400;
---line-height: 1.5;
+  --font-size-h1: 1.5rem;
+  --font-size-body: 1rem;
+  --font-size-h2: 1.2rem;
+  --font-size-character: 1.2rem;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --line-height: 1.5;
 }
 
 /* Change line-height to 1.5rem */
@@ -39,67 +39,72 @@ img {
 }
 
 /*Body Colors*/
-body{
+body {
   background-color: var(--clr-primary-bg);
-color: var(--clr-primary-text);
+  color: var(--clr-primary-text);
 }
 
 /* Utility classes for colors */
 .bg-primary,
 .bg-primary-info {
-color: var(--clr-primary-bg);
+  color: var(--clr-primary-bg);
 }
 
 .text-primary,
 .text-primary-info {
-color: var(--clr-primary-text);
+  color: var(--clr-primary-text);
 }
 
 .bg-secondary,
 .bg-secondary-info {
-color: var(--clr-secondary-bg);
+  color: var(--clr-secondary-bg);
 }
 
 .text-secondary,
 .text-secondary-info {
-color: var(--clr-secondary-text);
+  color: var(--clr-secondary-text);
 }
 
 .accent-colour,
 .accent-colour-info {
-color: var(--clr-accent);
+  color: var(--clr-accent);
 }
 /* Adding space between content*/
-.box{
-width: 80%;
-padding: 20px;
-margin-bottom: 10px;
-border: #ffbd09;
-border-style:groove;
+.box {
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: #ffbd09;
+  border-style: groove;
 }
-.color-list--swatch{
-padding:20px 20px ;
+
+.color-list--swatch {
+  padding: 20px 20px;
 }
 /* Color Combination*/
-.colour-combo-primary-bg{
-background-color: var(--clr-primary-bg);
-color: var(--clr-primary-text);
+.colour-combo-primary-bg {
+  background-color: var(--clr-primary-bg);
+  color: var(--clr-primary-text);
 }
-.colour-combo-primary-text{
-background-color: var(--clr-primary-text);
-color: var(--clr-primary-bg);
+
+.colour-combo-primary-text {
+  background-color: var(--clr-primary-text);
+  color: var(--clr-primary-bg);
 }
-.colour-combo-secondary-bg{
-background-color: var(--clr-secondary-bg);
-color: var(--clr-secondary-text);
+
+.colour-combo-secondary-bg {
+  background-color: var(--clr-secondary-bg);
+  color: var(--clr-secondary-text);
 }
-.colour-combo-secondary-text{
-background-color: var(--clr-secondary-text);
-color: var(--clr-secondary-bg);
+
+.colour-combo-secondary-text {
+  background-color: var(--clr-secondary-text);
+  color: var(--clr-secondary-bg);
 }
-.colour-combo-accent{
-background-color: var(--clr-accent);
-color: var(--clr-primary-text);
+
+.colour-combo-accent {
+  background-color: var(--clr-accent);
+  color: var(--clr-primary-text);
 }
 
 .colour-combo-two-accent{
