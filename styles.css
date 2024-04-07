@@ -190,25 +190,25 @@ text-align: center;
 }
 /* Bottom marign 16px */
 .l-mb-1 {
-margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 /* Right marign 16px */
 .l-mr-1 {
-margin-right: 1rem;
+  margin-right: 1rem;
 }
 /* Left marign 16px */
 .l-ml-1 {
-margin-left: 1rem; 
+  margin-left: 1rem;
 }
 /* Both sides marign */
 .l-mx-1 {
-margin-left: 1rem;
-margin-right: 1rem; 
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 /* Top and bottom marign */
 .l-my-1 {
-margin-top: 1rem;
-margin-bottom: 1rem; 
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* ==========================================Padding Classes======================================= */
