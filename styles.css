@@ -2,13 +2,13 @@
 :root {
    
   /* Primary Colors */
---clr-primary-text:#fffffe;  
---clr-primary-bg:  #272343; 
---clr-accent:#ffbd09; 
+  --clr-primary-text: #fffffe;
+  --clr-primary-bg: #272343;
+  --clr-accent: #ffbd09;
 
-/* Secondary Colors */
---clr-secondary-text: #fffffe; 
---clr-secondary-bg: #004643; 
+  /* Secondary Colors */
+  --clr-secondary-text: #fffffe;
+  --clr-secondary-bg: #004643;
 }
 
 /* Font Families */
@@ -30,8 +30,12 @@
 
 /* Change line-height to 1.5rem */
 body {
-line-height: 1.5rem; 
+  line-height: 1.5rem;
 
+}
+
+img {
+  width: 100%;
 }
 
 /*Body Colors*/
