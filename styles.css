@@ -278,7 +278,40 @@ nav ul li a {
   align-items: flex-start;
 }
 .toggle {
-  color:var(--clr-primary-text);}
+  color: var(--clr-primary-text);
+}
+
+.text-container {
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-hero {
+  background: url('images/hero_img.jpg') center/cover no-repeat;
+  height: 100vh;
+}
+
+.mobile-wrapper-width {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 37px;
+
+  color: var(--clr-primary-text);
+}
+
+.wrapper-width {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header-container img {
+  width: 60px;
+}
 
    .text-container {
     background-color: rgba(255, 255, 255, 0.5); 
