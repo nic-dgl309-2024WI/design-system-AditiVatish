@@ -350,18 +350,18 @@ nav ul li a {
 
 /* l-flex-center: Aligns items at the center both horizontally and vertically */
 .l-flex-center {
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 /* l-flex-space-between: Distributes items evenly with space between them */
 .l-flex-space-between {
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 /* l-flex-space-around: Distributes items evenly with space around them */
 .l-flex-space-around {
-justify-content: space-around;
+  justify-content: space-around;
 }
 
 /* l-flex-grow: Allows the element to grow within the flex container */
