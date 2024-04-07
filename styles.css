@@ -671,16 +671,68 @@ display: none;
 display: block;
 }
 
-.navbar__menu.active {
-display: flex;
-flex-direction: column;
-position: absolute;
-top: 100%;
-left: 0;
-width: 100%;
-background-color:var(--clr-accent);
-padding: 10px;
-}
+  /* Show hamburger icon for mobile */
+  #ham-open {
+    display: inline;
+  }
+
+  /* Show side navbar for mobile */
+  nav.ds-side-navbar {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: fixed;
+    top: 60px;
+  }
+
+  .characters {
+    flex-direction: row;
+    /* Display characters side by side on larger screens */
+  }
+
+  .typoheading {
+    text-align: center;
+    /* Center heading on smaller screens */
+  }
+
+  .l-container-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav.ds-top-navbar-pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    padding: 1;
+  }
+
+  .navbar__menu {
+    display: none;
+  }
+
+  .navbar__toggle {
+    display: block;
+  }
+
+  .navbar__menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--clr-accent);
+    padding: 10px;
+  }
 
 }
 /* CSS Reset */
