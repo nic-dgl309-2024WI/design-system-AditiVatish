@@ -171,22 +171,22 @@ text-align: center;
 }
 
 .Lato_txt {
-font-family: var(--heading-font);
+  font-family: var(--heading-font);
 }
 
 .Playfair_txt {
-font-family: var(--body-font);
+  font-family: var(--body-font);
 }
 
 
 /* ===============================Margin Classes================================================== */
 /* Default marign 16px */
 .l-m {
-margin: 1rem; 
+  margin: 1rem;
 }
 /* Top marign 16px */
 .l-mt-1 {
-margin-top: 1rem;
+  margin-top: 1rem;
 }
 /* Bottom marign 16px */
 .l-mb-1 {
