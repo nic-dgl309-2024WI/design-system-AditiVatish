@@ -607,14 +607,14 @@ top: margin 10px; ;
   cursor: pointer;
 }
 
-.button {
+/* .button {
   border-radius: 5%;
   text-decoration: none;
   margin: 1px;
   padding: 6px;
   text-emphasis-color: var(--clr-primary-text);
 
-}
+}*/
 
 /* CSS for Mobile View */
 @media screen and (min-width: 768px) {
@@ -794,7 +794,7 @@ width: calc(25% - 13px);
   margin-right: 10px;
 }
 
-.newsletter-button {
+.button {
   background-color: var(--clr-accent);
   color: var(--clr-primary-text);
   padding: 10px 20px;
@@ -805,7 +805,7 @@ width: calc(25% - 13px);
 }
 
 .newsletter-button:hover {
-  background-color: var(--clr-accent) /* You can adjust the hover color as needed */
+  background-color: var(--clr-accent) 
 }
 
 /*-------------------------------------------About Us--------------------------------------------*/
