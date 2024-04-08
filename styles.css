@@ -892,15 +892,28 @@ width: calc(25% - 13px);
   font-size: 0.9rem;
   color: #666;
 }
+/*------------------------------ Contact Us Section---------------------------------- */
 /* Contact Us Section */
 .contact-us {
+  background-color: var(--clr-primary-bg);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contact-us__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Space between image and form */
+  align-items: flex-start; /* Align items at the start (top) */
 }
 
 .contact-us__form {
-  flex: 1;
-  margin-right: 20px;
+  flex: 0 0 48%; /* Adjust width of both containers */
+  max-width: 48%; /* Adjust maximum width of both containers */
+}
+
+.about-us-image {
+  width: 100%; /* Make image fill its container */
+  border-radius: 10px; /* Apply border-radius to the image */
 }
 
 .contact-us__title {
