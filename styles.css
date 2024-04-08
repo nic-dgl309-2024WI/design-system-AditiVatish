@@ -906,6 +906,7 @@ width: calc(25% - 13px);
   align-items: flex-start; /* Align items at the start (top) */
 }
 
+.contact-us__image,
 .contact-us__form {
   flex: 0 0 48%; /* Adjust width of both containers */
   max-width: 48%; /* Adjust maximum width of both containers */
