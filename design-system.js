@@ -29,3 +29,42 @@ document.addEventListener('DOMContentLoaded', function () {
       carousel.style.transform = `translateX(${newTransform}px)`;
     }
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+  const reviews = document.querySelectorAll('.review');
+  const paginationButtons = document.querySelectorAll('.pagination-btn');
+
+  let currentPage = 0;
+
+  function showReviews(pageIndex) {
+    reviews.forEach((review, index) => {
+      if (index === pageIndex) {
+        review.classList.add('active');
+      } else {
+        review.classList.remove('active');
+      }
+    });
+  }
+
+  function setActiveButton(buttonIndex) {
+    paginationButtons.forEach((button, index) => {
+      if (index === buttonIndex) {
+        button.classList.add('active');
+      } else {
+        button.classList.remove('active');
+      }
+    });
+  }
+
+  paginationButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      currentPage = index;
+      showReviews(currentPage);
+      setActiveButton(currentPage);
+    });
+  });
+
+  showReviews(currentPage);
+  setActiveButton(currentPage);
+});
+
