@@ -636,6 +636,11 @@ top: margin 10px; ;
     gap: 4rem;
   }
 
+  #nav-items li:hover {
+    font-size: 1.2rem;
+    color: #ffbd09 !important;
+  }
+
   .navbar__left {
     margin-right: auto;
     /* Push logo to the left on larger screens */
@@ -703,8 +708,8 @@ top: margin 10px; ;
 }
 
  .user_img  {
-  width: 5 rem;
-  height: 5 rem;
+  width: 14rem;
+  height: 10rem;
   object-fit: cover;
 }
 
@@ -951,28 +956,18 @@ width: calc(25% - 13px);
 }
 
 /* FAQ Section */
-.faq {
-  flex: 1;
-}
-
-.faq__title {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
 .faq__item {
   margin-bottom: 20px;
 }
 
 .faq__question {
-  font-size: 1rem;
+  cursor: pointer;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 .faq__answer {
-  font-size: 1rem;
-  margin-left: 20px;
+  display: none;
+  margin-top: 10px;
 }
 
 /* ----------------------------------------Footer Section-------------------------- */
@@ -1017,7 +1012,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.icon {
+.Social_icon {
   width: 30px;
   height: 30px;
   margin-right: 10px;
