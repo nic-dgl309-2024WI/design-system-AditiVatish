@@ -680,6 +680,126 @@ top: margin 10px; ;
   text-align: center;
 }
 
+/*----------------------------Testimonial---------------------------------*/
+.review {
+  display: none;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--clr-secondary-bg);
+  margin-bottom: 20px;
+}
+
+
+.review.active {
+  display: flex;
+}
+
+.user_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+ .user_img  {
+  width: 5 rem;
+  height: 5 rem;
+  object-fit: cover;
+}
+
+.review-content {
+  flex: 1;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-btn {
+  background-color: var(--clr-secondary-bg);
+  color: var(--clr-primary-text);
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-btn.active {
+  background-color: var(--clr-accent);
+}
+
+/*---------------------------------------- How We Work Styles-------------------------------------------- */
+.main-how_we_work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-how_we_work__element {
+width: calc(25% - 13px);
+    padding: 44px;
+    background-color: var(--clr-secondary-bg);
+    border-radius: 11px;
+    text-align: center;
+}
+
+.main-how_we_work__element img {
+  width: 150px;
+    height: 158px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    padding: 1px;
+}
+/*----------------------------------------------newsletter--------------------------------------------*/
+.newsletter-section {
+  background-color: var(--clr-primary-bg);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.newsletter-section h2 {
+  color: var(--clr-primary-text);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.newsletter-section p {
+  color: var(--clr-secondary-text);
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid var(--clr-accent);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.newsletter-button {
+  background-color: var(--clr-accent);
+  color: var(--clr-primary-text);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-button:hover {
+  background-color: var(--clr-accent) /* You can adjust the hover color as needed */
+}
 
 /*==================Typography===============================*/
 table {
