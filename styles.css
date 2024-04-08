@@ -754,6 +754,13 @@ width: calc(25% - 13px);
     padding: 1px;
 }
 /*----------------------------------------------newsletter--------------------------------------------*/
+
+.newsletter-container{
+  border: 2px solid var(--clr-accent); /* Adjust border properties as needed */
+  border-radius: 10px;
+  margin: 20px;
+}
+
 .newsletter-section {
   background-color: var(--clr-primary-bg);
   padding: 40px;
