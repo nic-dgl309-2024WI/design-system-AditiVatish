@@ -724,7 +724,7 @@ top: margin 10px; ;
 }
 
 .pagination-btn {
-  background-color: var(--clr-secondary-bg);
+  background-color: var(--clr-accent);
   color: var(--clr-primary-text);
   border: none;
   padding: 10px 20px;
@@ -734,7 +734,7 @@ top: margin 10px; ;
 }
 
 .pagination-btn.active {
-  background-color: var(--clr-accent);
+  background-color: var(--clr-secondary-bg);
 }
 
 /*---------------------------------------- How We Work Styles-------------------------------------------- */
@@ -763,6 +763,7 @@ top: margin 10px; ;
   padding: 0.5rem;
   margin-bottom: 2rem;
 }
+
 /*----------------------------------------------newsletter--------------------------------------------*/
 
 .newsletter-container{
@@ -959,7 +960,6 @@ top: margin 10px; ;
   font-size: 1rem;
   cursor: pointer;
 }
-
 /* FAQ Section */
 .faq__item {
   margin-bottom: 20px;
@@ -1224,6 +1224,60 @@ tr:hover {
     background-color: var(--clr-accent);
     padding: 10px;
   }
+/*---------------------------------------- How We Work Styles -------------------------------------------- */
+  .main-how_we_work__element {
+    justify-content: space-between;
+
+  }
+
+/* Mobile View */
+
+@media only screen and (max-width: 767px) {
+  .main-hero {
+    height: auto;
+    min-height: 100vh;
+    background: url('images/hero_img.jpg') center/cover no-repeat;
+    text-align: center;
+  }
+
+  .main-hero__content {
+    padding: 20px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-hero__title {
+    margin-bottom: 10px;
+    font-size: 24px; /* Adjust font size as needed */
+  }
+
+  .main-hero__subtitle {
+    margin-top: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+
+  .button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px; /* Adjust font size as needed */
+  }
+
+  .mobile-wrapper-width {
+    padding: 20px;
+  }
+
+  .wrapper-width {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+
 
 }
 
