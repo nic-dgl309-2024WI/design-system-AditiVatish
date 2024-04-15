@@ -78,3 +78,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+
+$(document).ready(function() {
+  $('.faq__question').click(function() {
+    var $answer = $(this).next('.faq__answer');
+    $('.faq__answer').not($answer).slideUp();
+    $answer.slideToggle();
+    $(this).parent().toggleClass('active').siblings().removeClass('active');
+  });
+});
+
