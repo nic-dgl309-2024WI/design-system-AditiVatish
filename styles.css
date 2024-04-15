@@ -334,7 +334,7 @@ nav ul li a {
 }
 
 .header-container img {
-  width: 60px;
+  width: 90px;
 }
 
 
@@ -688,10 +688,11 @@ top: margin 10px; ;
 /*----------------------------Testimonial---------------------------------*/
 .review {
   display: none;
-  padding: 20px;
+  border: 2px solid var(--clr-accent); /* Add border */
   border-radius: 10px;
-  background-color: var(--clr-secondary-bg);
-  margin-bottom: 20px;
+  padding: 20px; /* Add padding */
+  margin-bottom: 20px; /* Add margin bottom for spacing between reviews */
+  text-align: center; /* Center text */
 }
 
 
