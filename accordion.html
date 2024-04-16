@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Site</title>
+  <script src="design-system.js"></script>
+  <link rel="stylesheet" href="design-system.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body class="ds-body">
+  <header>
+    <!-- Top Navbar -->
+    <nav class="ds-top-navbar">
+      <div id="top-nav-pages" class="top-nav-pages l-container-position l-z-index-2">
+        <h1><a href="index.html">Design System</a></h1>
+        <ul id="nv-link" class="show-icon">
+          <li><a href="about-me.html">About Me</a></li>
+          <li> <a href="index.html" class="link link--active">Demo Site</a></li>
+        </ul>
+      </div>
+      <i id="ham-open" onclick="toggleNavbar()" class="fa fa-bars "></i>
+      <i id="close-icon" onclick="toggleNavbar()" class="fa fa-close show-icon"></i>
+    </nav>
+  </header>
+  <!-- Side Navbar -->
+  <div class="l-flex l-flex-row">
+    <nav id="side-navbar" class="ds-side-navbar show-icon l-container-position  l-header-pt-2">
+      <ul>
+        <nav id="side-navbar" class="ds-side-navbar show-icon">
+          <ul>
+            <h3><a href="#">Branding</a></h3>
+            <li><a href="color.html">01 Colours </a></li>
+            <li><a href="typography.html">02 Typography </a></li>
+            <li><a href="logo.html">03 Logo</a></li>
+          </ul>
+          <ul>
+            <h3><a href="#">Utilities</a></h3>
+            <li><a href="spacing.html">04 Spacing</a></li>
+            <li><a href="containers.html">05 Containers</a></li>
+            <li><a href="images.html">06 Images</a></li>
+          </ul>
+          <ul>
+            <h3><a href="navigation.html">Navigation</a></h3>
+            <li><a href="navbar.html">07 Navbars</a></li>
+            <li><a href="breadcrumbs.html">08 Breadcrumbs</a></li>
+            <li><a href="pagination.html">09 Pagination</a></li>
+          </ul>
+          <ul>
+            <h3><a href="#">Blocks</a></h3>
+            <li><a href="hero.html">10 Hero</a></li>
+            <li><a href="carousel.html">11 Carousel</a></li>
+            <li><a href="footer.html">12 Footer</a></li>
+          </ul>
+          <ul>
+            <h3><a href="#">Components</a></h3>
+            <li><a href="cards.html">16 Cards</a></li>
+            <li><a href="forms.html">17 Forms</a></li>
+            <li><a href="accordion.html">18 Accordion</a></li>
+            <li><a href="list.html">19 Lists</a></li>
+          </ul>
+        </nav>
+    </nav>
+    <main class="ds-main  l-container-mobile  l-container-desktop">
+    <div class=" l-pt-1  l-header-pl-2">
+        <h1 class="u-ff-playfair u-fs-h1 u-fw-bold u-lh">Accordion</h1>
+
+        <section class="main-faq wrapper-width ">
+            <div class="faq l-mt-1">
+              <h2 class="faq__title ">Frequently Asked Questions (FAQ)</h2> <br>
+  
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  What are your shipping options?
+                  <span><img src="images/down.png" class="faq__icon" alt="Expand"></span>
+                </h3>
+                <p class="faq__answer">
+                  We offer standard and expedited shipping options. Standard shipping typically takes
+                  3-5 business days, while expedited shipping delivers within 1-2 business days.
+                  We also provide tracking numbers for all shipments so you can monitor your package's
+                  progress until it reaches its destination.
+                </p>
+              </div>
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  Do you offer international shipping?
+                  <span><img src="images/down.png" class="faq__icon" alt="Expand"></span>
+                </h3>
+                <p class="faq__answer">
+                  Yes, we offer international shipping to select countries. Please contact us for
+                  more information regarding international shipping rates and delivery times.
+                  Keep in mind that international shipments may be subject to customs clearance procedures
+                  and additional import duties and taxes.
+                </p>
+              </div>
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  How can I track my order?
+                  <span><img src="images/down.png" class="faq__icon" alt="Expand"></span>
+                </h3>
+                <p class="faq__answer">
+                  Once your order is shipped, you will receive a tracking number via email. You can
+                  use this tracking number to monitor the status and location of your package.
+                  Tracking information is usually updated within 24-48 hours after your order has been shipped.
+                </p>
+              </div>
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  What is your return policy?
+                  <span><img src="images/down.png" class="faq__icon" alt="Expand"></span>
+                </h3>
+                <p class="faq__answer">
+                  We offer a 30-day return policy for most items. If you're not satisfied with your
+                  purchase, you can return the item(s) within 30 days of delivery for a full refund.
+                  Please note that certain items may be ineligible for return due to hygiene or safety reasons.
+                </p>
+              </div>
+            </div>
+        </section>
+ 
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
