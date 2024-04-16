@@ -764,7 +764,7 @@ top: margin 10px; ;
   margin-bottom: 2rem;
 }
 
-/*----------------------------------------------newsletter--------------------------------------------*/
+/*----------------------------------------------Newsletter--------------------------------------------*/
 
 .newsletter-container{
   border: 2px solid var(--clr-accent); /* Adjust border properties as needed */
@@ -901,7 +901,7 @@ top: margin 10px; ;
 
 .team-member__position {
   font-size: 0.9rem;
-  color: #666;
+  color:var(--clr-primary-text);
 }
 /*------------------------------ Contact Us Section---------------------------------- */
 /* Contact Us Section */
@@ -1234,10 +1234,10 @@ tr:hover {
 
 @media only screen and (max-width: 767px) {
   .main-hero {
-    height: auto;
-    min-height: 100vh;
     background: url('images/hero_img.jpg') center/cover no-repeat;
-    text-align: center;
+      background-size: auto 100%; /* Adjust background size */
+      background-position: center; /* Adjust background position */
+    
   }
 
   .main-hero__content {
@@ -1277,9 +1277,25 @@ tr:hover {
   }
 }
 
+.newsletter-form {
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.newsletter-input {
+  width: calc(100% - 20px); /* Adjust width */
+  margin: 0 0 10px; /* Adjust margin */
+}
+
+.button {
+  width: calc(100% - 20px); /* Adjust width */
+}
 
 
 }
+
+
+
+
 
 /* CSS Reset */
 html {
