@@ -1275,6 +1275,43 @@ tr:hover {
     max-width: 100%;
     margin: 0 auto;
   }
+/*----------------------------------Features--------------------------------------*/
+  .main-features-image {
+    left: calc(50% - 8rem); /* Adjust position */
+    width: 12rem; /* Adjust width */
+    height: 12rem; /* Adjust height */
+  }
+
+  .content-flex {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+  .content {
+    max-width: 80%; /* Adjust max-width for better fit */
+    margin: 1rem auto; /* Adjust margin */
+  }
+
+  /*--------------------------------How_We_Work------------------------------------------------*/
+  .main-how_we_work {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+  .main-how_we_work__element {
+    width: 80%; /* Adjust width for better fit */
+    margin: 1rem 0; /* Reduce margin for closer spacing */
+  }
+
+  .main-how_we_work__element img {
+    width: 8rem; /* Decrease image size */
+    height: 8rem;
+    margin-bottom: 1rem; /* Reduce margin for closer spacing */
+  }
+}
+/*----------------------------------Newspaper----------------------------------*/
+.newsletter-section {
+  padding: 20px; /* Reduce padding */
 }
 
 .newsletter-form {
