@@ -1404,6 +1404,11 @@ tr:hover {
   line-height: 1.5;
 }
 
+.about-us-image {
+  width: 50%;
+  max-width: 50%; /* Set maximum width to full width for mobile view */
+  border-radius: 10px;
+}
 
 
 /* CSS Reset */
