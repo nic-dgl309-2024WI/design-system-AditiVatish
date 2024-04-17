@@ -917,9 +917,6 @@ nav ul li a {
   align-items: center;
 }
 
-.main-resources__title {
-  margin-bottom: 1rem;
-}
 
 .main-team__description {
   margin-bottom: 1rem;
@@ -967,19 +964,19 @@ nav ul li a {
 
 .contact-us__container {
   display: flex;
-  justify-content: space-between; /* Space between image and form */
-  align-items: flex-start; /* Align items at the start (top) */
+  justify-content: space-between; 
+  align-items: flex-start; 
 }
 
 .contact-us__image,
 .contact-us__form {
-  flex: 0 0 48%; /* Adjust width of both containers */
-  max-width: 48%; /* Adjust maximum width of both containers */
+  flex: 0 0 48%; 
+  max-width: 48%; 
 }
 
 .about-us-image {
-  width: 100%; /* Make image fill its container */
-  border-radius: 10px; /* Apply border-radius to the image */
+  width: 100%; 
+  border-radius: 10px; 
 }
 
 .contact-us__title {
@@ -1001,7 +998,7 @@ nav ul li a {
 .contact-us__form textarea {
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--clr-primary-text);
   border-radius: 5px;
 }
 
@@ -1295,8 +1292,7 @@ tr:hover {
   }
 
   .text-container {
-    display: flex;
-    flex-direction: column;
+    display:inline-block;
     align-items: center;
   }
 
