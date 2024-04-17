@@ -1381,6 +1381,28 @@ tr:hover {
 }
 
 
+/*--------------------------------------------About Us------------------------------------------*/
+.about-us-section {
+  display: flex;
+  flex-direction: column; /* Change flex direction for mobile view */
+  background-color: var(--clr-primary-bg);
+  padding: 20px; /* Reduce padding for mobile view */
+  border-radius: 10px;
+}
+
+.about-us-content {
+  max-width: 50%; /* Set maximum width to full width for mobile view */
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+}
+
+.about-us-title {
+  font-size: 1.5rem; /* Decrease font size for mobile view */
+}
+
+.about-us-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
 
 
 
