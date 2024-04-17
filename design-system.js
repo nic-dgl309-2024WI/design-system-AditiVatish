@@ -6,6 +6,25 @@ function toggleNavbar() {
     document.getElementById('nv-link').classList.toggle("show-icon"); 
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+  // Add event listener to the hamburger icon
+  var hamOpen = document.getElementById('ham-open');
+  var closeIcon = document.getElementById('close-icon');
+  var sideNavbar = document.getElementById('side-navbar');
+
+  hamOpen.addEventListener('click', function() {
+      sideNavbar.classList.toggle('show-icon');
+      hamOpen.style.display = 'none';
+      closeIcon.style.display = 'block';
+  });
+
+  closeIcon.addEventListener('click', function() {
+      sideNavbar.classList.toggle('show-icon');
+      hamOpen.style.display = 'block';
+      closeIcon.style.display = 'none';
+  });
+});
+
 
 document.addEventListener('DOMContentLoaded', function () {
     let currentIndex = 0;

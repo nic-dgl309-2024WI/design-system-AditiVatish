@@ -56,11 +56,13 @@ ol {
   left: -56px;
   width: 237px;
   z-index: 1000;
+  margin-top: -40px;
 }
 
 .ds-side-navbar a {
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin: 0px;
 }
 
 
@@ -86,7 +88,7 @@ nav {
   display: none;
 }
 
-/* Show the "X" symbol when the toggle button is active */
+/*Show the "X" symbol when the toggle button is active*/
 .ds-toggle .active .fa-times {
   display: inline;
 }
