@@ -338,6 +338,11 @@ nav ul li a {
 }
 
 
+#nav-items li:hover a {
+  color: var(--clr-accent); 
+}
+
+
 /*====================================== Flex Layout Classes=============================================*/
 
 /* l-flex: Applies display: flex; to the element */
