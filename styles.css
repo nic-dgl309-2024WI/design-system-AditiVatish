@@ -1171,50 +1171,6 @@ tr:hover {
   min-width: 33%;
 }
 
-.carousel {
-  overflow: hidden;
-  position: relative;
-}
-.carousel-container {
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-}
-
-.carousel-buttons button {
-  background-color:var(--clr-accent);
-  color: var(--clr-primary-text);
-  border: none;
-  padding: 10px 20px;
-  margin: 0 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  position: absolute;
-
-}
-
-.carousel-button-prev {
-  transform: translateX(-50%);
-  bottom: 60%;
-  left: 5%;
-}
-
-.carousel-button-next {
-  transform: translateX(-50%);
-  bottom: 60%;
-  left: 96%;
-}
-
-.carousel-content {
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-.products img {
-  height: 300px;
-  width: 300px;
-}
-
 @media only screen and (max-width: 768px) {
   nav.ds-top-navbar {
     flex-direction: row;
@@ -1234,6 +1190,10 @@ tr:hover {
     padding: 10px;
     position: fixed;
     top: 60px;
+    margin-top: 20px; /* Adjust this value to your preference */
+    height: calc(100vh - 60px); /* Adjust the height as needed */
+    overflow-y: auto;
+  
   }
 
   .characters {
@@ -1283,6 +1243,37 @@ tr:hover {
     background-color: var(--clr-accent);
     padding: 10px;
   }
+/*----------------------------------------Resources--------------------------------------------*/
+.main-resources__title {
+  margin-top: 20px; /* Adjust margin for smaller screens */
+}
+
+.carousel-buttons button {
+  padding: 8px 16px; /* Adjust button padding */
+}
+
+.carousel-button-prev {
+  left: 2%; /* Adjust left position for previous button */
+}
+
+.carousel-button-next {
+  right: 2%; 
+}
+
+.carousel-container {
+  padding: 0 10px; 
+}
+
+.products img {
+  height: auto; 
+  width: 100%; 
+  max-width: 100%; 
+
+.carousel-content {
+  max-width: 100%; 
+}
+
+
 /*---------------------------------------- How We Work Styles -------------------------------------------- */
   .main-how_we_work__element {
     justify-content: space-between;
