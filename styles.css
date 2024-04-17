@@ -599,10 +599,7 @@ nav ul li a {
   /* Hide the image element since it's not needed as a separate element */
 }
 
-.main-resources__title{
-text-align: center;
-top: margin 10px; ;
-}
+
 
 /* Toggle Button for Mobile */
 .toggle-btn {
@@ -659,6 +656,58 @@ top: margin 10px; ;
     margin-left: 20px;
     /* Adjust spacing as needed */
   }
+}
+
+/*------------------------------------Resources------------------------------------*/
+.main-resources__title{
+  text-align: center;
+  top: margin 10px; ;
+  margin-bottom: 1rem;
+
+  }
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+.carousel-container {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.carousel-buttons button {
+  background-color:var(--clr-accent);
+  color: var(--clr-primary-text);
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+
+}
+
+.carousel-button-prev {
+  transform: translateX(-50%);
+  bottom: 60%;
+  left: 5%;
+}
+
+.carousel-button-next {
+  transform: translateX(-50%);
+  bottom: 60%;
+  left: 96%;
+}
+
+.carousel-content {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.products img {
+  height: 300px;
+  width: 300px;
 }
 
 /*-------------------------------------Features---------------------------------------*/
