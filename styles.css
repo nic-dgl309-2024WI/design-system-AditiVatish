@@ -1015,6 +1015,11 @@ nav ul li a {
   cursor: pointer;
 }
 /* FAQ Section */
+.main-faq{
+  max-width: 800px; 
+  margin: auto; 
+  padding: 20px;
+}
 .faq__item {
   margin-bottom: 20px;
 }
@@ -1022,10 +1027,10 @@ nav ul li a {
 .faq__question {
   cursor: pointer;
   font-weight: bold;
-  color: var(--clr-primary-text); /* Darker text color */
-  margin-bottom: 10px; /* Space between question and answer */
-  transition: color 0.3s; /* Smooth transition for text color */
-  position: relative; /* Positioning context for the line */
+  color: var(--clr-primary-text); 
+  margin-bottom: 10px; 
+  transition: color 0.3s;
+  position: relative; 
 }
 
 .faq__question:not(:last-child):after {
