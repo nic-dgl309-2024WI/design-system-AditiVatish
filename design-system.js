@@ -108,3 +108,9 @@ $(document).ready(function() {
   });
 });
 
+function copyCode() {
+  const codeInput = document.getElementById('code-input');
+  codeInput.select();
+  document.execCommand('copy');
+  alert('Code copied!');
+}
