@@ -21,6 +21,7 @@ ol {
   display: flex;
   justify-content: center; 
   align-items: center;
+  overflow: hidden;
   
 }
 /* Adjust max-width based on your design */
