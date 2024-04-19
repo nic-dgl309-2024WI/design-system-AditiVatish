@@ -19,9 +19,9 @@
 
 /* Font Variables */
 :root {
-  --font-size-h1: 1.5rem;
-  --font-size-body: 1rem;
-  --font-size-h2: 1.2rem;
+  --font-size-h1: 5rem;
+  --font-size-body: 1.2rem;
+  --font-size-h2: 1.4rem;
   --font-size-character: 1.2rem;
   --font-weight-bold: 700;
   --font-weight-regular: 400;
@@ -656,17 +656,18 @@ nav ul li a {
 }
 
 /*------------------------------------Resources------------------------------------*/
-.main-resources__title{
+/*------------------------------------Resources------------------------------------*/
+.main-resources__title {
   text-align: center;
-  top: margin 10px; ;
+  margin-top: 10px; /* Adjusted property */
   margin-bottom: 1rem;
-
-  }
+}
 
 .carousel {
   overflow: hidden;
   position: relative;
 }
+
 .carousel-container {
   margin: 0 auto;
   position: relative;
@@ -674,7 +675,7 @@ nav ul li a {
 }
 
 .carousel-buttons button {
-  background-color:var(--clr-accent);
+  background-color: var(--clr-accent);
   color: var(--clr-primary-text);
   border: none;
   padding: 10px 20px;
@@ -682,7 +683,6 @@ nav ul li a {
   border-radius: 5px;
   cursor: pointer;
   position: absolute;
-
 }
 
 .carousel-button-prev {
@@ -694,7 +694,7 @@ nav ul li a {
 .carousel-button-next {
   transform: translateX(-50%);
   bottom: 60%;
-  left: 96%;
+  left: 95%; /* Adjusted from 96% for symmetry */
 }
 
 .carousel-content {
@@ -707,8 +707,8 @@ nav ul li a {
   width: 300px;
 }
 
-/*-------------------------------------Features---------------------------------------*/
 
+/*-------------------------------------Features---------------------------------------*/
 .main-features-section {
   position: relative;
 }
@@ -716,7 +716,7 @@ nav ul li a {
 .main-features-image {
   position: relative;
   left: calc(51% - 125px);
-  background-image: url(images/girlwithplant.png);
+  background-image: url('images/girlwithplant.png');
   background-size: auto 100%;
   background-repeat: no-repeat;
   width: 16rem;
@@ -817,17 +817,15 @@ nav ul li a {
 
 /*----------------------------------------------Newsletter--------------------------------------------*/
 
-.newsletter-container{
-  border: 2px solid var(--clr-accent); /* Adjust border properties as needed */
-  border-radius: 10px;
-  margin: 20px;
-}
 
 .newsletter-section {
   background-color: var(--clr-primary-bg);
   padding: 40px;
   border-radius: 10px;
   text-align: center;
+  border: 2px solid var(--clr-accent); /* Adjust border properties as needed */
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .newsletter-section h2 {
@@ -1221,7 +1219,7 @@ tr:hover {
     flex-direction: column;
     align-items: center;
     z-index: 1000;
-    padding: 1;
+    padding: 1px; 
   }
 
   .navbar__menu {
@@ -1281,7 +1279,7 @@ tr:hover {
   height: auto; 
   width: 100%; 
   max-width: 100%; 
-
+}
 .carousel-content {
   max-width: 100%; 
 }
@@ -1436,7 +1434,7 @@ tr:hover {
     height: 8rem;
     margin-bottom: 1rem; /* Reduce margin for closer spacing */
   }
-}
+
 /*----------------------------------Newspaper----------------------------------*/
 .newsletter-section {
   padding: 20px; /* Reduce padding */
@@ -1456,7 +1454,6 @@ tr:hover {
 }
 
 
-}
 
 
 /*--------------------------------------------About Us------------------------------------------*/
