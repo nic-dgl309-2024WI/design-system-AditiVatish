@@ -34,9 +34,6 @@ body {
 
 }
 
-img {
-  width: 100%;
-}
 
 /*Body Colors*/
 body {
@@ -1490,7 +1487,7 @@ tr:hover {
   max-width: 50%; /* Set maximum width to full width for mobile view */
   border-radius: 10px;
 }
-
+}
 
 /* CSS Reset */
 html {
