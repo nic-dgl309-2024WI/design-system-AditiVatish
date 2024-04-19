@@ -65,36 +65,34 @@
           <li><a href="list.html">19 Lists</a></li>
         </ul>
       </nav>
-  <main class="ds-main l-container-mobile  l-container-desktop">
-    <div class="l-pt-1  l-header-pl-2">
-      <div class="l-container-desktop">
-        <h1>Constrained Container for Desktop</h1>
-        <p>This container has a max-width of 1200px and is centered on the page.</p>
-      </div>
-
-      <!-- Example with l-container-mobile -->
-      <div class="l-container-mobile">
-        <h1>Full-width Container for Mobile</h1>
-        <p>This container takes up the full width of the viewport on mobile devices.</p>
-      </div>
-
-      <!-- Example with l-container-full -->
-      <div class="l-container-full">
-        <div>
-          <h2>Grid Item 1</h2>
-          <p>Content for Grid Item 1</p>
-        </div>
-        <div>
-          <h2>Grid Item 2</h2>
-          <p>Content for Grid Item 2</p>
-        </div>
-        <div>
-          <h2>Grid Item 3</h2>
-          <p>Content for Grid Item 3</p>
-        </div>
-      </div>
-    </div>
-  </main>
+      <main class="ds-main l-container-desktop">
+        <section class="l-pt-1 l-header-pl-2">
+          <article class="l-container-desktop ds-content-boader">
+            <h1>Constrained Container for Desktop</h1>
+            <p>This container has a max-width of 1200px and is centered on the page. It uses the primary color background.</p>
+          </article>
+  
+          <article class="l-container-mobile ds-content-boader">
+            <h1>Full-width Container for Mobile</h1>
+            <p>This container takes up the full width of the viewport on mobile devices and uses the secondary color background.</p>
+          </article>
+  
+          <div class="l-container-full l-grid l-grid-cols-3 ds-content-boader">
+            <div class="box">
+              <h2>Grid Item 1</h2>
+              <p>Content for Grid Item 1 with accent color background and a border.</p>
+            </div>
+            <div class="box">
+              <h2>Grid Item 2</h2>
+              <p>Content for Grid Item 2 with accent color background and a border.</p>
+            </div>
+            <div class="box">
+              <h2>Grid Item 3</h2>
+              <p>Content for Grid Item 3 with accent color background and a border.</p>
+            </div>
+          </div>
+        </section>
+      </main>
 </body>
 
 </html>
