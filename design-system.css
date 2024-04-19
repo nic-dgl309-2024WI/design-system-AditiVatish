@@ -46,6 +46,10 @@ ol {
 #nv-link {
   margin-right: 20px;
 }
+.ds-content-boader{
+  border: 0.2rem solid var(--clr-accent);
+  margin: 8px;
+}
 /* Side Navbar styles */
 .ds-side-navbar {
   display: none;
@@ -76,7 +80,9 @@ nav {
   text-align: left !important;
 }
 
-
+img{
+  width: 50%;
+}
 /*===================.ds-toggle==========================*/
 /* toggel side*/
 .ds-toggle {
@@ -152,7 +158,36 @@ nav.top-nav {
   margin-right: 20px;
 }
 }
+/*-------------------------Breadcrums------------------------------------------------*/
+.ds-breadcrumb {
+  list-style: none;
+  padding: 8px 15px;
+  background: var(--clr-secondary-bg);
+  border-radius: 5px;
+  display: flex;
+}
 
+.ds-breadcrumb-item {
+  font-size: var(--font-size-body);
+  font-family: var(--body-font);
+}
+
+.ds-breadcrumb-item a {
+  color: var(--clr-primary-text);
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.ds-breadcrumb-item + .ds-breadcrumb-item::before {
+  content: ">";
+  color: var(--clr-accent);
+  padding: 0 10px;
+}
+
+.ds-breadcrumb-item.ds-active {
+  color: var(--clr-accent);
+  cursor: default;
+}
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
   .ds-side-navbar {
@@ -188,6 +223,173 @@ nav.top-nav {
   main {
     margin-left: 0; /* Adjust the margin for smaller screens */
   }
+
+  /*--------------------------------------------Logo--------------------------------*/
+.ds-header-container {
+  width: 90px;
+}
+
+/*-----------------------------hero section of index page----------------------------------------------*/
+
+.ds-button {
+  background-color: var(--clr-accent);
+  color: var(--clr-primary-text);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.ds-main-hero__content {
+  max-width: 100%;
+  text-align: center;
+  color: var(--clr-primary-bg)
+
+ 
+}
+
+.ds-main-hero__title {
+  margin-bottom: 5px; 
+}
+
+.ds-main-hero__subtitle {
+  margin-top: 5px; }
+
+.ds-main-hero__image {
+  display: none;
+  
 }
 
 
+/*----------------------------------------Resources--------------------------------------------*/
+.ds-main-resources__title {
+  margin-top: 20px; 
+}
+
+.ds-carousel-buttons button {
+  padding: 8px 16px; 
+}
+
+.ds-carousel-button-prev {
+  left: 2%; 
+}
+
+.ds-carousel-button-next {
+  right: 2%; 
+}
+
+.ds-carousel-container {
+  padding: 0 10px; 
+}
+
+.ds-products img {
+  height: auto; 
+  width: 100%; 
+  max-width: 100%; }
+
+.ds-carousel-content {
+  max-width: 100%; 
+}
+}
+
+/* FAQ Section */
+.main-faq{
+  max-width: 800px; 
+  margin: auto; 
+  padding: 20px;
+}
+.ds-faq__item {
+  margin-bottom: 16px;
+  margin-right: -22px;
+  margin-left: 2px;
+
+}
+
+.faq__question {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--clr-primary-text); 
+  margin-bottom: 10px; 
+  transition: color 0.3s;
+  position: relative; 
+  margin-left: 5px;
+}
+
+.faq__question:not(:last-child):after {
+  content: '';
+  position: absolute;
+  bottom: -5px; /* Adjust the vertical position */
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--clr-primary-text)
+}
+
+.faq__answer {
+  display: none;
+  margin-top: 10px;
+  color: var(--clr-primary-text); 
+  font-size: 14px; 
+}
+
+.faq__item.active .faq__answer {
+  display: block;
+}
+
+.faq__icon {
+  width: 20px;
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  right: 10px;
+  margin-left: 5px; 
+}
+
+.faq__question span {
+  background-attachment: scroll !important;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 767px) {
+  .ds-main-hero {
+    background: url('images/hero_img.jpg') center/cover no-repeat;
+      background-size: auto 100%; /* Adjust background size */
+      background-position: center; /* Adjust background position */
+    
+  }
+
+  .main-hero__content {
+    padding: 20px;
+  }
+
+  .ds-text-container {
+    display:inline-block;
+    align-items: center;
+  }
+
+  .ds-main-hero__title {
+    margin-bottom: 10px;
+    font-size: 24px; /* Adjust font size as needed */
+  }
+
+  .ds-main-hero__subtitle {
+    margin-top: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+
+  .ds-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px; /* Adjust font size as needed */
+  }
+
+  .mobile-wrapper-width {
+    padding: 20px;
+  }
+
+  .ds-wrapper-width {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
