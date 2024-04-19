@@ -54,7 +54,7 @@ body {
 
 .bg-secondary,
 .bg-secondary-info {
-  color: var(--clr-secondary-bg);
+  color: var(--clr-primary-text);
 }
 
 .text-secondary,
@@ -425,11 +425,8 @@ nav ul li a {
 /* l-container-desktop: Constrained container for desktop with max-width */
 .l-container-desktop {
   max-width: 1200px;
-  /* Adjust the max-width value as needed */
   margin: 0 auto;
-  /* Center the container */
   padding: 20px;
-  border-radius: 10px;
 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -451,7 +448,6 @@ nav ul li a {
   display: flex;
   gap: 20px;
   padding: 20px;
-  border-radius: 10px;
 }
 
 /*================================= Content Styles ===============================================*/
@@ -1164,11 +1160,14 @@ tr:hover {
 
 /*================================= Responsive Website ===========================*/
 
-.products {
-  min-width: 33%;
-}
+
 
 @media only screen and (max-width: 768px) {
+
+  .products {
+    width: 100%;
+  }
+  
   nav.ds-top-navbar {
     flex-direction: row;
     justify-content: space-between;
@@ -1252,7 +1251,7 @@ tr:hover {
   .ds-side-navbar h3{
     margin-bottom: 5px;
   }
-
+}
 
 /*----------------------------------------Resources--------------------------------------------*/
 .main-resources__title {
